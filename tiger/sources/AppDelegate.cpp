@@ -17,6 +17,9 @@
 // CCBReader
 #include "Lua_extensions_CCB.h"
 
+//SPSAnimation
+#include "TSPAnimationLoader.h"
+
 using namespace std;
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -60,6 +63,9 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     // CCBReader
     tolua_extensions_ccb_open(L);
+    
+    //SPSAnimation
+    tolua_TSPAnimation_open(L);
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
     string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("scripts/main.lua");

@@ -1,0 +1,177 @@
+<skeleton name="zhaoyun" frameRate="60" version="1.4">
+ <armatures>
+  <armature name="zhaoyun">
+   <b name="zhaoyun" x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100">
+    <d name="Tween 1"/>
+    <d name="Tween 2"/>
+    <d name="Tween 3"/>
+    <d name="Tween 4"/>
+    <d name="Tween 5"/>
+    <d name="Tween 6"/>
+    <d name="Tween 7"/>
+    <d name="Tween 8"/>
+    <d name="Tween 10"/>
+    <d name="Tween 11"/>
+    <d name="Tween 12"/>
+    <d name="Tween 13"/>
+    <d name="Tween 14"/>
+    <d name="Tween 15"/>
+    <d name="Tween 16"/>
+    <d name="Tween 17"/>
+    <d name="Tween 19"/>
+    <d name="Tween 20"/>
+    <d name="Tween 21"/>
+    <d name="Tween 22"/>
+    <d name="Tween 23"/>
+    <d name="Tween 24"/>
+    <d name="Tween 25"/>
+    <d name="Tween 26"/>
+    <d name="Tween 28"/>
+    <d name="Tween 29"/>
+    <d name="Tween 30"/>
+    <d name="Tween 31"/>
+    <d name="Tween 32"/>
+    <d name="Tween 33"/>
+    <d name="Tween 34"/>
+    <d name="Tween 35"/>
+    <d name="Tween 36"/>
+    <d name="Tween 37"/>
+    <d name="Tween 38"/>
+    <d name="bujian-bujian24"/>
+    <d name="Tween 39"/>
+    <d name="Tween 40"/>
+    <d name="Tween 41"/>
+    <d name="Tween 42"/>
+    <d name="Tween 43"/>
+    <d name="Tween 44"/>
+    <d name="Tween 45"/>
+    <d name="Tween 46"/>
+    <d name="Tween 47"/>
+    <d name="Tween 48"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="zhaoyun">
+   <mov name="walk" dr="24" to="6" drTW="48" lp="1" twE="NaN">
+    <b name="zhaoyun" sc="1" dl="0">
+     <f x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="0" twE="0" dr="3"/>
+     <f x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="1" twE="0" dr="3"/>
+     <f x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="2" twE="0" dr="3"/>
+     <f x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="3" twE="0" dr="3"/>
+     <f x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="4" twE="0" dr="3"/>
+     <f x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="5" twE="0" dr="3"/>
+     <f x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="6" twE="0" dr="3"/>
+     <f x="-2.9" y="-75.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="7" twE="0" dr="3"/>
+    </b>
+   </mov>
+   <mov name="attack" dr="25" to="6" drTW="50" lp="1" twE="NaN">
+    <b name="zhaoyun" sc="1" dl="0">
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="8" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="9" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="10" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="11" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="12" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="13" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="14" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="15" twE="0" dr="4"/>
+    </b>
+   </mov>
+   <mov name="stand" dr="24" to="6" drTW="48" lp="1" twE="NaN">
+    <b name="zhaoyun" sc="1" dl="0">
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="16" twE="0" dr="3"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="17" twE="0" dr="3"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="18" twE="0" dr="3"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="19" twE="0" dr="3"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="20" twE="0" dr="3"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="21" twE="0" dr="3"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="22" twE="0" dr="3"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="23" twE="0" dr="3"/>
+    </b>
+   </mov>
+   <mov name="beaten" dr="16" to="6" drTW="32" lp="1" twE="NaN">
+    <b name="zhaoyun" sc="1" dl="0">
+     <f x="6.6" y="-70.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="24" twE="0" dr="4"/>
+     <f x="6.6" y="-70.4" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="25" twE="0" dr="4"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="26" twE="0" dr="8"/>
+    </b>
+   </mov>
+   <mov name="disappear" dr="59" to="6" drTW="118" lp="1" twE="NaN">
+    <b name="zhaoyun" sc="1" dl="0">
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="27" twE="0" dr="3"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="28" twE="0" dr="3"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="29" twE="0" dr="3"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="30" twE="0" dr="3"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="31" twE="0" dr="3"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="32" twE="0" dr="3"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="33" twE="0" dr="3"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="34" twE="0" dr="3"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="35" twE="0" dr="34"/>
+     <f x="-27.9" y="-58.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="0" red="100" green="100" blue="100" dI="35" twE="0" dr="1"/>
+    </b>
+   </mov>
+   <mov name="skill" dr="51" to="6" drTW="102" lp="1" twE="NaN">
+    <b name="zhaoyun" sc="1" dl="0">
+     <f x="12.1" y="-71.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="36" twE="0" dr="7"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="37" twE="0" dr="17"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="38" twE="0" dr="5"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="39" twE="0" dr="5"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="40" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="41" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="42" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="43" twE="0" dr="3"/>
+     <f x="26.35" y="-75.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="44" twE="0" dr="4"/>
+     <f x="12.1" y="-72.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="45" twE="0" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="zhaoyun" width="2048" height="2048">
+  <SubTexture name="Tween 48" pX="85" pY="80.5" width="170" height="161" x="1076" y="728"/>
+  <SubTexture name="Tween 47" pX="119" pY="80.5" width="238" height="161" x="253" y="239"/>
+  <SubTexture name="Tween 46" pX="119" pY="80.5" width="238" height="161" x="733" y="239"/>
+  <SubTexture name="Tween 45" pX="119" pY="80.5" width="238" height="161" x="240" y="565"/>
+  <SubTexture name="Tween 44" pX="119" pY="80.5" width="238" height="161" x="253" y="402"/>
+  <SubTexture name="Tween 43" pX="119" pY="80.5" width="238" height="161" x="1213" y="402"/>
+  <SubTexture name="Tween 42" pX="119" pY="80.5" width="238" height="161" x="1453" y="239"/>
+  <SubTexture name="Tween 41" pX="119" pY="80.5" width="238" height="161" x="0" y="478"/>
+  <SubTexture name="Tween 40" pX="119" pY="80.5" width="238" height="161" x="973" y="239"/>
+  <SubTexture name="Tween 39" pX="85" pY="80.5" width="170" height="161" x="0" y="804"/>
+  <SubTexture name="bujian-bujian24" pX="125.5" pY="118.5" width="251" height="237" x="1771" y="0"/>
+  <SubTexture name="Tween 38" pX="125.5" pY="118.5" width="251" height="237" x="1518" y="0"/>
+  <SubTexture name="Tween 37" pX="125.5" pY="118.5" width="251" height="237" x="1265" y="0"/>
+  <SubTexture name="Tween 36" pX="125.5" pY="118.5" width="251" height="237" x="759" y="0"/>
+  <SubTexture name="Tween 35" pX="125.5" pY="118.5" width="251" height="237" x="506" y="0"/>
+  <SubTexture name="Tween 34" pX="125.5" pY="118.5" width="251" height="237" x="0" y="239"/>
+  <SubTexture name="Tween 33" pX="125.5" pY="118.5" width="251" height="237" x="1012" y="0"/>
+  <SubTexture name="Tween 32" pX="125.5" pY="118.5" width="251" height="237" x="0" y="0"/>
+  <SubTexture name="Tween 31" pX="125.5" pY="118.5" width="251" height="237" x="253" y="0"/>
+  <SubTexture name="Tween 30" pX="85" pY="80.5" width="170" height="161" x="1764" y="728"/>
+  <SubTexture name="Tween 29" pX="86.5" pY="79" width="173" height="158" x="385" y="728"/>
+  <SubTexture name="Tween 28" pX="86.5" pY="79" width="173" height="158" x="210" y="728"/>
+  <SubTexture name="Tween 26" pX="85" pY="80.5" width="170" height="161" x="1420" y="728"/>
+  <SubTexture name="Tween 25" pX="85" pY="80.5" width="170" height="161" x="560" y="728"/>
+  <SubTexture name="Tween 24" pX="85" pY="80.5" width="170" height="161" x="732" y="728"/>
+  <SubTexture name="Tween 23" pX="85" pY="80.5" width="170" height="161" x="1592" y="728"/>
+  <SubTexture name="Tween 22" pX="85" pY="80.5" width="170" height="161" x="172" y="888"/>
+  <SubTexture name="Tween 21" pX="85" pY="80.5" width="170" height="161" x="1248" y="728"/>
+  <SubTexture name="Tween 20" pX="85" pY="80.5" width="170" height="161" x="344" y="888"/>
+  <SubTexture name="Tween 19" pX="85" pY="80.5" width="170" height="161" x="904" y="728"/>
+  <SubTexture name="Tween 17" pX="119" pY="80.5" width="238" height="161" x="1453" y="402"/>
+  <SubTexture name="Tween 16" pX="119" pY="80.5" width="238" height="161" x="973" y="402"/>
+  <SubTexture name="Tween 15" pX="119" pY="80.5" width="238" height="161" x="493" y="402"/>
+  <SubTexture name="Tween 14" pX="119" pY="80.5" width="238" height="161" x="1693" y="239"/>
+  <SubTexture name="Tween 13" pX="119" pY="80.5" width="238" height="161" x="1213" y="239"/>
+  <SubTexture name="Tween 12" pX="119" pY="80.5" width="238" height="161" x="493" y="239"/>
+  <SubTexture name="Tween 11" pX="119" pY="80.5" width="238" height="161" x="1693" y="402"/>
+  <SubTexture name="Tween 10" pX="119" pY="80.5" width="238" height="161" x="733" y="402"/>
+  <SubTexture name="Tween 8" pX="104" pY="80.5" width="208" height="161" x="1110" y="565"/>
+  <SubTexture name="Tween 7" pX="104" pY="80.5" width="208" height="161" x="0" y="641"/>
+  <SubTexture name="Tween 6" pX="104" pY="80.5" width="208" height="161" x="1320" y="565"/>
+  <SubTexture name="Tween 5" pX="104" pY="80.5" width="208" height="161" x="1530" y="565"/>
+  <SubTexture name="Tween 4" pX="104" pY="80.5" width="208" height="161" x="690" y="565"/>
+  <SubTexture name="Tween 3" pX="104" pY="80.5" width="208" height="161" x="480" y="565"/>
+  <SubTexture name="Tween 2" pX="104" pY="80.5" width="208" height="161" x="1740" y="565"/>
+  <SubTexture name="Tween 1" pX="104" pY="80.5" width="208" height="161" x="900" y="565"/>
+ </TextureAtlas>
+</skeleton>

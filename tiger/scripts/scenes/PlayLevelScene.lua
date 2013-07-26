@@ -7,6 +7,8 @@ local PlayLevelScene = class("PlayLevelScene", function()
 end)
 
 function PlayLevelScene:ctor(levelIndex)
+    print("play_level_scene........................................start")
+
     local bg = display.newSprite("#PlayLevelSceneBg.png")
     -- make background sprite always align top
     bg:setPosition(display.cx, display.top - bg:getContentSize().height / 2)
@@ -46,6 +48,8 @@ function PlayLevelScene:ctor(levelIndex)
 
     local menu = ui.newMenu({backButton})
     self:addChild(menu)
+    
+    print("play_level_scene...............................end")
 end
 
 function PlayLevelScene:onLevelCompleted()
