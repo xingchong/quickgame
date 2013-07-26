@@ -12,6 +12,6 @@ Xcode->Preferences->Locations->Source Trees
 
 quick-cocos2d-x框架git地址
 https://github.com/dualface/quick-cocos2d-x
-
+--------------------------------------------------
 
 =========
