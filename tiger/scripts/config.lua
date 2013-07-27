@@ -8,21 +8,7 @@ CONFIG_SCREEN_WIDTH  = 640
 CONFIG_SCREEN_HEIGHT = 960
 
 -- auto scale mode
-CONFIG_SCREEN_AUTOSCALE = "FIXED_WIDTH"
-
--- sounds
-GAME_SFX = {
-    tapButton  = "sfx/TapButtonSound.mp3",
-    backButton = "sfx/BackButtonSound.mp3",
-    flipCoin = "sfx/ConFlipSound.mp3",
-    levelCompleted = "sfx/LevelWinSound.mp3",
-}
-
-GAME_TEXTURE_PLIST      = "AllSprites.plist"
-GAME_TEXTURE_PNG        = "AllSprites.png"
-
-BASE_UI_TEXTURE_PLIST   = "images/baseui.plist"
-BASE_UI_TEXTURE_PNG     = "images/baseui.png"
+CONFIG_SCREEN_AUTOSCALE = "FIXED_HEIGHT"
 
 ANIMATION_ZHAOYUN       = "zhaoyun"
 ANIMATION_ZHAOYUN_PLIST = "animation/zhaoyun.plist"

@@ -116,7 +116,7 @@ void TSPAnimation::setScaleY(float _scaleY)
 
 bool TSPAnimation::ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent)
 {
-    CCLog("=======%s=====", "TSPAnimation::ccTouchBegan");
+    //CCLog("=======%s=====", "TSPAnimation::ccTouchBegan");
     if (m_touchBubble)
     {
         return false;// touchEvent go on
