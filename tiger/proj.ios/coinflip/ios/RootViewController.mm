@@ -31,16 +31,16 @@
 // Override to allow orientations other than the default portrait orientation.
 // This method is deprecated on ios6
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    //return UIInterfaceOrientationIsLandscape( interfaceOrientation );//横向
-    return UIInterfaceOrientationIsPortrait(interfaceOrientation);//纵向
+    return UIInterfaceOrientationIsLandscape( interfaceOrientation );//横向
+    //return UIInterfaceOrientationIsPortrait(interfaceOrientation);//纵向
 }
 
 // For ios6.0 and higher, use supportedInterfaceOrientations & shouldAutorotate instead
 - (NSUInteger) supportedInterfaceOrientations
 {
 #ifdef __IPHONE_6_0
-    //return UIInterfaceOrientationMaskLandscape; //横向
-    return UIInterfaceOrientationMaskPortrait;//纵向
+    return UIInterfaceOrientationMaskLandscape; //横向
+    //return UIInterfaceOrientationMaskPortrait;//纵向
 #endif
 }
 
