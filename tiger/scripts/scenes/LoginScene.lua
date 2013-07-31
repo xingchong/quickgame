@@ -4,21 +4,27 @@ local LoginScene = class("LoginScene", function()
 end)
 
 function LoginScene:ctor()
+    require("utils.CCBReaderLoad")
+    ccb["LoginScene"] = {}
+    ccb["LoginScene"]["loginButtonClick"] = LoginScene.loginButtonClick
+    
     local proxy       = CCBProxy:create()
-    local ccbReader   = proxy:createCCBReader()
-    local strFilePath = LOGIN_PANEL_CCBI
-    local node        = proxy:readCCBFromFile(strFilePath,ccbReader,bSetOwner)
-    --node:setAnchorPoint(CCPoint:new(0.5, 0.5))
+    local node        = CCBReaderLoad(LOGIN_PANEL_CCBI, proxy, true, "LoginScene")
     node:setPosition(display.right/2 - CONFIG_SCREEN_WIDTH/2, 0)
     self:addChild(node)
-    
+
     local mspAnimation = TSPAnimation:create(ANIMATION_ZHAOYUN, ANIMATION_ZHAOYUN_PLIST)
-    --mspAnimation:setPosition(display.right/2, display.top/2)
     mspAnimation:setPosition(100, 0)
     mspAnimation:setScale(1)
     mspAnimation:play("walk")
     mspAnimation:setTouchBubble(true)
     mspAnimation:addSelfToParent(self)
+end
+
+
+function LoginScene.loginButtonClick()
+    print("_______LoginScene.loginButtonClick be call________")
+    game.enterMainScene()
 end
 
 return LoginScene

@@ -16,5 +16,70 @@
          landmarkName = "CCNode::setAnchorPoint(const CCPoint&amp; point)"
          landmarkType = "5">
       </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../lib/cocos2d-x/scripting/lua/cocos2dx_support/CCBProxy.cpp"
+         timestampString = "396937683.287872"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "40"
+         endingLineNumber = "40"
+         landmarkName = "CCBProxy::readCCBFromFile(const char *pszFileName,CCBReader* pCCBReader,bool bSetOwner)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../lib/cocos2d-x/extensions/CCBReader/CCBReader.cpp"
+         timestampString = "396943457.483115"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "986"
+         endingLineNumber = "986"
+         landmarkName = "CCBReader::addOwnerCallbackName(std::string name)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../lib/cocos2d-x/extensions/CCBReader/CCNodeLoader.cpp"
+         timestampString = "396943625.73242"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "738"
+         endingLineNumber = "738"
+         landmarkName = "CCNodeLoader::parsePropTypeBlock(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../lib/cocos2d-x/extensions/CCBReader/CCNodeLoader.cpp"
+         timestampString = "396943779.636118"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "799"
+         endingLineNumber = "799"
+         landmarkName = "CCNodeLoader::parsePropTypeBlockCCControl(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../lib/cocos2d-x/extensions/CCBReader/CCNodeLoader.cpp"
+         timestampString = "396943803.035289"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "862"
+         endingLineNumber = "862"
+         landmarkName = "CCNodeLoader::parsePropTypeCCBFile(CCNode * pNode, CCNode * pParent, CCBReader * pCCBReader)"
+         landmarkType = "5">
+      </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
