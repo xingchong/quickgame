@@ -59,8 +59,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     luaopen_cocos2dx_extra_luabinding(L);
 
     // thrid_party
-    luaopen_third_party_luabinding(L);
-
+    luaopen_third_party_luabinding(L);   
     // CCBReader
     tolua_extensions_ccb_open(L);
     
