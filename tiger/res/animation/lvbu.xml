@@ -106,14 +106,10 @@
      <f x="7.35" y="-81.15" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="26" twE="0" dr="10"/>
     </b>
    </mov>
-   <mov name="beaten" dr="8" to="6" drTW="8" lp="0" twE="NaN">
+   <mov name="beaten" dr="16" to="6" drTW="16" lp="0" twE="NaN">
     <b name="lvbu_4" sc="1" dl="0">
      <f x="-1.65" y="-90.65" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="27" twE="0" dr="4"/>
      <f x="-1.65" y="-90.65" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="28" twE="0" dr="4"/>
-    </b>
-   </mov>
-   <mov name="beatenEnd" dr="8" to="6" drTW="8" lp="0" twE="NaN">
-    <b name="lvbu_4" sc="1" dl="0">
      <f x="7.35" y="-81.15" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="29" twE="0" dr="8"/>
     </b>
    </mov>

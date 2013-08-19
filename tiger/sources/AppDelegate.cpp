@@ -22,6 +22,7 @@
 #include "BattleParseLoader.h"
 //#include "SPArmatureLoader.h"
 #include "TAnimationLoader.h"
+//#include "HttpSeverLoad.h"
 
 
 #include "BattleParse.h"
@@ -76,6 +77,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     tolua_BattleParse_open(L);
     
     tolua_TAnimation_open(L);
+    
+    //tolua_HttpSever_open(L);
     
 //    CCSprite * sprite = CCSprite::create();
 //    sprite->setFlipX(bool bFlipX)

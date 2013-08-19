@@ -47,12 +47,7 @@ function MainScene:ctor()
     
     self:addChild(self.menu)
     
-    local liulanghan = ui.newTTFLabelWithShadow({
-        text = "流浪汉",
-        x = 270,
-        y = 350,
-      }
-    )
+    local liulanghan = ui.newTTFLabelWithShadow({text = "流浪汉",x = 270,y = 350,})
     self:addChild(liulanghan)
     
     MainScene:addArmatureFileInfo(ANIMATION_LIULANGHAN_PLIST)
@@ -60,6 +55,24 @@ function MainScene:ctor()
     armature0:getAnimation():play("stand")
     armature0:setPosition(ccp(300, 250))
     self:addChild(armature0)
+    
+    
+    local liulanghan1 = ui.newTTFLabelWithShadow({text = "流浪汉",x = 370,y = 450,})
+    self:addChild(liulanghan1)
+    
+    local armature1 = Armature:create(ANIMATION_LIULANGHAN)
+    armature1:getAnimation():play("stand")
+    armature1:setPosition(ccp(400, 350))
+    self:addChild(armature1)
+    
+    
+    local liulanghan2 = ui.newTTFLabelWithShadow({text = "流浪汉",x = 570,y = 500,})
+    self:addChild(liulanghan2)
+    
+    local armature2 = Armature:create(ANIMATION_LIULANGHAN)
+    armature2:getAnimation():play("stand")
+    armature2:setPosition(ccp(600, 400))
+    self:addChild(armature2)
     
 end
 

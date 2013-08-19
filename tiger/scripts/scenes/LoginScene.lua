@@ -3,6 +3,12 @@ local LoginScene = class("LoginScene", function()
     return display.newScene("LoginScene")
 end)
 
+
+LoginScene.editBoxUsername = nil
+
+LoginScene.editBoxPassword = nil
+
+
 function LoginScene:ctor()
     require("utils.CCBReaderLoad")
     ccb["LoginScene"] = {}
@@ -13,13 +19,32 @@ function LoginScene:ctor()
     node:setPosition(display.right/2 - CONFIG_SCREEN_WIDTH/2, 0)
     self:addChild(node)
 
-    --local mspAnimation = TSPAnimation:create(ANIMATION_ZHAOYUN, ANIMATION_ZHAOYUN_PLIST)
-    --mspAnimation:setPosition(100, 0)
-    --mspAnimation:setScale(1)
-    --mspAnimation:play("walk")
-    --mspAnimation:setTouchBubble(true)
-    --mspAnimation:addSelfToParent(self)
+    --editbox
+    local editbkg = CCScale9Sprite:create();
+    local editBoxUsername = CCEditBox:create(CCSizeMake(300,60),editbkg);
+    editBoxUsername:setReturnType(kKeyboardReturnTypeDone);
+    --editBoxUsername->setFontSize(12);
+    editBoxUsername:setText("");
+    editBoxUsername:setFontColor(ccc3(0, 255, 0));
+    editBoxUsername:setMaxLength(8);
+    editBoxUsername:setPosition(ccp(display.right*0.57, display.top*0.55))
+    self:addChild(editBoxUsername)
     
+    local editbkg1 = CCScale9Sprite:create();
+    local editBoxPassword = CCEditBox:create(CCSizeMake(300, 60),editbkg1);
+    editBoxPassword:setReturnType(kKeyboardReturnTypeDone);
+    editBoxPassword:setInputFlag(kEditBoxInputFlagPassword);
+    editBoxPassword:setFontColor(ccc3(0, 255, 0));
+    editBoxPassword:setMaxLength(8);
+    --editBoxPassword->setFontSize(12);
+    editBoxPassword:setText("");
+    editBoxPassword:setPosition(ccp(display.right*0.57, display.top*0.43))
+    self:addChild(editBoxPassword)
+    
+    LoginScene.editBoxUsername = editBoxUsername
+    LoginScene.editBoxPassword = editBoxPassword
+    
+    --animation
     LoginScene:addArmatureFileInfo(ANIMATION_PLAYER0_PLIST)
     local armature0 = Armature:create(ANIMATION_PLAYER0)
     armature0:getAnimation():play("stand")
@@ -36,12 +61,23 @@ end
 
 
 function LoginScene.loginButtonClick()
-    print("_______LoginScene.loginButtonClick be call________")
+
+    local userName = LoginScene.editBoxUsername:getText()
+    
+    local password = LoginScene.editBoxPassword:getText()
+    
+    print("userName="..userName..", password="..password)
+    
+    ---require("utils/HttpUtil").requestJsonData("http://10.22.222.88:6001/config/json.txt")
+    
     game.enterMainScene()
 end
 
-function LoginScene.onEnter()
 
+
+
+function LoginScene:onEnter()
+    print("onEnter in LoginScene.................")
 end
 
 

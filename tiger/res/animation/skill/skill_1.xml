@@ -1,0 +1,63 @@
+<skeleton name="skill_1" frameRate="60" version="1.4">
+ <armatures>
+  <armature name="skill_1">
+   <b name="skill11" x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100">
+    <d name="skill1_Tween 16_0"/>
+    <d name="skill1_Tween 17_1"/>
+    <d name="skill1_Tween 18_2"/>
+    <d name="skill1_Tween 19_3"/>
+    <d name="skill1_Tween 20_4"/>
+    <d name="skill1_Tween 21_5"/>
+    <d name="skill1_Tween 22_6"/>
+    <d name="skill1_Tween 23_7"/>
+    <d name="skill1_Tween 24_8"/>
+    <d name="skill1_Tween 25_9"/>
+    <d name="skill1_Tween 26_10"/>
+    <d name="skill1_Tween 27_11"/>
+    <d name="skill1_Tween 28_12"/>
+    <d name="skill1_Tween 29_13"/>
+    <d name="skill1_Tween 30_14"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="skill_1">
+   <mov name="fight" dr="30" to="6" drTW="60" lp="1" twE="NaN">
+    <b name="skill11" sc="1" dl="0">
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="0" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="1" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="2" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="3" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="4" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="5" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="6" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="7" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="8" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="9" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="10" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="11" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="12" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="13" twE="0" dr="2"/>
+     <f x="0" y="0" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="14" twE="0" dr="2"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="skill_1" width="512" height="1024">
+  <SubTexture name="skill1_Tween 30_14" pX="60" pY="60" width="120" height="120" x="366" y="244"/>
+  <SubTexture name="skill1_Tween 29_13" pX="60" pY="60" width="120" height="120" x="366" y="366"/>
+  <SubTexture name="skill1_Tween 28_12" pX="60" pY="60" width="120" height="120" x="0" y="486"/>
+  <SubTexture name="skill1_Tween 27_11" pX="60" pY="60" width="120" height="120" x="364" y="122"/>
+  <SubTexture name="skill1_Tween 26_10" pX="60" pY="60" width="120" height="120" x="122" y="366"/>
+  <SubTexture name="skill1_Tween 25_9" pX="60" pY="60" width="120" height="120" x="122" y="244"/>
+  <SubTexture name="skill1_Tween 24_8" pX="60" pY="60" width="120" height="120" x="122" y="488"/>
+  <SubTexture name="skill1_Tween 23_7" pX="60" pY="60" width="120" height="120" x="242" y="0"/>
+  <SubTexture name="skill1_Tween 22_6" pX="60" pY="60" width="120" height="120" x="364" y="0"/>
+  <SubTexture name="skill1_Tween 21_5" pX="60" pY="60" width="120" height="120" x="242" y="122"/>
+  <SubTexture name="skill1_Tween 20_4" pX="60" pY="60" width="120" height="120" x="0" y="242"/>
+  <SubTexture name="skill1_Tween 19_3" pX="60" pY="60" width="120" height="120" x="244" y="244"/>
+  <SubTexture name="skill1_Tween 18_2" pX="60" pY="60" width="120" height="120" x="0" y="364"/>
+  <SubTexture name="skill1_Tween 17_1" pX="60" pY="60" width="120" height="120" x="244" y="366"/>
+  <SubTexture name="skill1_Tween 16_0" pX="120" pY="120" width="240" height="240" x="0" y="0"/>
+ </TextureAtlas>
+</skeleton>
