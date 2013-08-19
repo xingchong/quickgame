@@ -8,8 +8,6 @@ using namespace cocos2d;
 TSPAnimation:: TSPAnimation():
 m_touchBubble(true)
 {
-    this->armatureName = armatureName;
-    this->plistPath    = plistPath;
 }
 
 TSPAnimation::~TSPAnimation()
@@ -36,6 +34,10 @@ TSPAnimation* TSPAnimation::create(const char *armatureName, const char *plistPa
 bool TSPAnimation::init(std::string armatureName, std::string plistPath)
 {
     bool bRet = false;
+    
+    this->armatureName = armatureName;
+    this->plistPath    = plistPath;
+    
     if (!CCLayer::init())
     {
         return bRet;
@@ -147,10 +149,13 @@ bool TSPAnimation::isTouchBubble()
 
 void TSPAnimation::onExit()
 {
+    
     CCLayer::onExit();
     
     //BatchNodeManager::sharedBatchNodeManager()->removeBatchNodes(armatureName);
     
     //ArmatureDataManager::sharedArmatureDataManager()->removeAll();
+    
+    armature->getAnimation()->stop();
 }
 

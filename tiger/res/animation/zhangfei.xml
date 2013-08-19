@@ -1,0 +1,197 @@
+<skeleton name="hero_zhang_fei" frameRate="60" version="1.4">
+ <armatures>
+  <armature name="zhangfei">
+   <b name="zf_4" x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100">
+    <d name="zf_Tween 1_0"/>
+    <d name="zf_Tween 2_1"/>
+    <d name="zf_Tween 3_2"/>
+    <d name="zf_Tween 4_3"/>
+    <d name="zf_Tween 5_4"/>
+    <d name="zf_Tween 6_5"/>
+    <d name="zf_Tween 7_6"/>
+    <d name="zf_Tween 8_7"/>
+    <d name="zf_Tween 9_8"/>
+    <d name="zf_Tween 10_9"/>
+    <d name="zf_Tween 11_10"/>
+    <d name="zf_Tween 12_11"/>
+    <d name="zf_Tween 13_12"/>
+    <d name="zf_Tween 14_13"/>
+    <d name="zf_Tween 15_14"/>
+    <d name="zf_Tween 16_15"/>
+    <d name="zf_Tween 17_16"/>
+    <d name="zf_Tween 18_17"/>
+    <d name="zf_Tween 19_18"/>
+    <d name="zf_Tween 20_19"/>
+    <d name="zf_Tween 21_20"/>
+    <d name="zf_Tween 22_21"/>
+    <d name="zf_Tween 23_22"/>
+    <d name="zf_Tween 24_23"/>
+    <d name="zf_Tween 25_24"/>
+    <d name="zf_Tween 26_25"/>
+    <d name="zf_Tween 27_26"/>
+    <d name="zf_Tween 28_27"/>
+    <d name="zf_Tween 29_28"/>
+    <d name="zf_Tween 30_29"/>
+    <d name="zf_Tween 31_30"/>
+    <d name="zf_Tween 32_31"/>
+    <d name="zf_Tween 33_32"/>
+    <d name="zf_Tween 34_33"/>
+    <d name="zf_Tween 35_34"/>
+    <d name="zf_Tween 36_35"/>
+    <d name="zf_Tween 37_36"/>
+    <d name="zf_Tween 38_37"/>
+    <d name="zf_Tween 39_38"/>
+    <d name="zf_Tween 40_39"/>
+    <d name="zf_Tween 41_40"/>
+    <d name="zf_Tween 42_41"/>
+    <d name="zf_Tween 43_42"/>
+    <d name="zf_Tween 44_43"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="zhangfei">
+   <mov name="walk" dr="24" to="6" drTW="48" lp="1" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="0" twE="0" dr="3"/>
+     <f x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="1" twE="0" dr="3"/>
+     <f x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="2" twE="0" dr="3"/>
+     <f x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="3" twE="0" dr="3"/>
+     <f x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="4" twE="0" dr="3"/>
+     <f x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="5" twE="0" dr="3"/>
+     <f x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="6" twE="0" dr="3"/>
+     <f x="-6.15" y="-41.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="7" twE="0" dr="3"/>
+    </b>
+   </mov>
+   <mov name="walkEnd" dr="7" to="6" drTW="7" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="8" twE="0" dr="7"/>
+    </b>
+   </mov>
+   <mov name="attack" dr="32" to="6" drTW="32" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="9" twE="0" dr="4"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="10" twE="0" dr="4"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="11" twE="0" dr="4"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="12" twE="0" dr="3"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="13" twE="0" dr="3"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="14" twE="0" dr="3"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="15" twE="0" dr="3"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="16" twE="0" dr="8"/>
+    </b>
+   </mov>
+   <mov name="attackEnd" dr="13" to="6" drTW="13" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="17" twE="0" dr="13"/>
+    </b>
+   </mov>
+   <mov name="stand" dr="24" to="6" drTW="48" lp="1" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="18" twE="0" dr="3"/>
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="19" twE="0" dr="3"/>
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="20" twE="0" dr="3"/>
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="21" twE="0" dr="3"/>
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="22" twE="0" dr="3"/>
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="23" twE="0" dr="3"/>
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="24" twE="0" dr="3"/>
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="25" twE="0" dr="3"/>
+    </b>
+   </mov>
+   <mov name="standEnd" dr="10" to="6" drTW="10" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="26" twE="0" dr="10"/>
+    </b>
+   </mov>
+   <mov name="beaten" dr="8" to="6" drTW="8" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="-5.15" y="-47.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="27" twE="0" dr="4"/>
+     <f x="-5.15" y="-47.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="28" twE="0" dr="4"/>
+    </b>
+   </mov>
+   <mov name="beatenEnd" dr="8" to="6" drTW="8" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="29" twE="0" dr="8"/>
+    </b>
+   </mov>
+   <mov name="disappear" dr="79" to="6" drTW="79" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="-10.4" y="-37.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="30" twE="0" dr="4"/>
+     <f x="-10.4" y="-37.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="31" twE="0" dr="4"/>
+     <f x="-10.4" y="-37.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="32" twE="0" dr="4"/>
+     <f x="-10.4" y="-37.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="33" twE="0" dr="4"/>
+     <f x="-10.4" y="-37.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="34" twE="0" dr="4"/>
+     <f dr="59" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="disappearEnd" dr="1" to="6"/>
+   <mov name="skill" dr="32" to="6" drTW="32" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="4.85" y="-51.65" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="35" twE="0" dr="7"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="36" twE="0" dr="17"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="37" twE="0" dr="4"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="38" twE="0" dr="4"/>
+    </b>
+   </mov>
+   <mov name="skilltrigger" dr="45" to="6" drTW="45" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="39" twE="0" dr="14"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="40" twE="0" dr="3"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="41" twE="0" dr="3"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="42" twE="0" dr="3"/>
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="43" twE="0" dr="22"/>
+    </b>
+   </mov>
+   <mov name="skillend" dr="8" to="6" drTW="8" lp="0" twE="NaN">
+    <b name="zf_4" sc="1" dl="0">
+     <f x="18.6" y="-50.9" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="43" twE="0" dr="8"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="hero_zhang_fei" width="1024" height="2048">
+  <SubTexture name="zf_Tween 44_43" pX="114.5" pY="60" width="229" height="120" x="462" y="0"/>
+  <SubTexture name="zf_Tween 43_42" pX="114.5" pY="60" width="229" height="120" x="231" y="244"/>
+  <SubTexture name="zf_Tween 42_41" pX="114.5" pY="60" width="229" height="120" x="693" y="0"/>
+  <SubTexture name="zf_Tween 41_40" pX="114.5" pY="60" width="229" height="120" x="462" y="366"/>
+  <SubTexture name="zf_Tween 40_39" pX="114.5" pY="60" width="229" height="120" x="231" y="122"/>
+  <SubTexture name="zf_Tween 39_38" pX="114.5" pY="60" width="229" height="120" x="693" y="244"/>
+  <SubTexture name="zf_Tween 38_37" pX="114.5" pY="60" width="229" height="120" x="693" y="122"/>
+  <SubTexture name="zf_Tween 37_36" pX="114.5" pY="60" width="229" height="120" x="693" y="366"/>
+  <SubTexture name="zf_Tween 36_35" pX="63.5" pY="59.5" width="127" height="119" x="387" y="916"/>
+  <SubTexture name="zf_Tween 35_34" pX="85" pY="76.5" width="170" height="153" x="459" y="488"/>
+  <SubTexture name="zf_Tween 34_33" pX="85" pY="76.5" width="170" height="153" x="0" y="488"/>
+  <SubTexture name="zf_Tween 33_32" pX="85" pY="76.5" width="170" height="153" x="172" y="488"/>
+  <SubTexture name="zf_Tween 32_31" pX="85" pY="76.5" width="170" height="153" x="803" y="488"/>
+  <SubTexture name="zf_Tween 31_30" pX="85" pY="76.5" width="170" height="153" x="631" y="488"/>
+  <SubTexture name="zf_Tween 30_29" pX="63.5" pY="59.5" width="127" height="119" x="0" y="916"/>
+  <SubTexture name="zf_Tween 29_28" pX="58.5" pY="56.5" width="117" height="113" x="893" y="916"/>
+  <SubTexture name="zf_Tween 28_27" pX="58.5" pY="56.5" width="117" height="113" x="774" y="916"/>
+  <SubTexture name="zf_Tween 27_26" pX="63.5" pY="59.5" width="127" height="119" x="746" y="795"/>
+  <SubTexture name="zf_Tween 26_25" pX="63.5" pY="59.5" width="127" height="119" x="488" y="795"/>
+  <SubTexture name="zf_Tween 25_24" pX="63.5" pY="59.5" width="127" height="119" x="0" y="795"/>
+  <SubTexture name="zf_Tween 24_23" pX="63.5" pY="59.5" width="127" height="119" x="258" y="916"/>
+  <SubTexture name="zf_Tween 23_22" pX="63.5" pY="59.5" width="127" height="119" x="875" y="795"/>
+  <SubTexture name="zf_Tween 22_21" pX="63.5" pY="59.5" width="127" height="119" x="230" y="792"/>
+  <SubTexture name="zf_Tween 21_20" pX="63.5" pY="59.5" width="127" height="119" x="516" y="916"/>
+  <SubTexture name="zf_Tween 20_19" pX="63.5" pY="59.5" width="127" height="119" x="617" y="795"/>
+  <SubTexture name="zf_Tween 19_18" pX="63.5" pY="59.5" width="127" height="119" x="645" y="916"/>
+  <SubTexture name="zf_Tween 18_17" pX="63.5" pY="59.5" width="127" height="119" x="359" y="795"/>
+  <SubTexture name="zf_Tween 17_16" pX="114.5" pY="60" width="229" height="120" x="231" y="366"/>
+  <SubTexture name="zf_Tween 16_15" pX="114.5" pY="60" width="229" height="120" x="0" y="0"/>
+  <SubTexture name="zf_Tween 15_14" pX="114.5" pY="60" width="229" height="120" x="0" y="366"/>
+  <SubTexture name="zf_Tween 14_13" pX="114.5" pY="60" width="229" height="120" x="231" y="0"/>
+  <SubTexture name="zf_Tween 13_12" pX="114.5" pY="60" width="229" height="120" x="462" y="244"/>
+  <SubTexture name="zf_Tween 12_11" pX="114.5" pY="60" width="229" height="120" x="0" y="244"/>
+  <SubTexture name="zf_Tween 11_10" pX="114.5" pY="60" width="229" height="120" x="462" y="122"/>
+  <SubTexture name="zf_Tween 10_9" pX="114.5" pY="60" width="229" height="120" x="0" y="122"/>
+  <SubTexture name="zf_Tween 9_8" pX="63.5" pY="59.5" width="127" height="119" x="129" y="913"/>
+  <SubTexture name="zf_Tween 8_7" pX="56.5" pY="75" width="113" height="150" x="689" y="643"/>
+  <SubTexture name="zf_Tween 7_6" pX="56.5" pY="75" width="113" height="150" x="115" y="643"/>
+  <SubTexture name="zf_Tween 6_5" pX="56.5" pY="75" width="113" height="150" x="804" y="643"/>
+  <SubTexture name="zf_Tween 5_4" pX="56.5" pY="75" width="113" height="150" x="344" y="640"/>
+  <SubTexture name="zf_Tween 4_3" pX="56.5" pY="75" width="113" height="150" x="0" y="643"/>
+  <SubTexture name="zf_Tween 3_2" pX="56.5" pY="75" width="113" height="150" x="459" y="643"/>
+  <SubTexture name="zf_Tween 2_1" pX="56.5" pY="75" width="113" height="150" x="344" y="488"/>
+  <SubTexture name="zf_Tween 1_0" pX="56.5" pY="75" width="113" height="150" x="574" y="643"/>
+ </TextureAtlas>
+</skeleton>

@@ -7,61 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E233801017A1858B004DDAC7 /* SPAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337F9917A1858B004DDAC7 /* SPAnimation.cpp */; };
-		E233801117A1858B004DDAC7 /* SPProcessBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337F9B17A1858B004DDAC7 /* SPProcessBase.cpp */; };
-		E233801217A1858B004DDAC7 /* SPTween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337F9D17A1858B004DDAC7 /* SPTween.cpp */; };
-		E233801317A1858B004DDAC7 /* SPArmatureDisplayData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FA117A1858B004DDAC7 /* SPArmatureDisplayData.cpp */; };
-		E233801417A1858B004DDAC7 /* SPDisplayData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FA317A1858B004DDAC7 /* SPDisplayData.cpp */; };
-		E233801517A1858B004DDAC7 /* SPParticleDisplayData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FA517A1858B004DDAC7 /* SPParticleDisplayData.cpp */; };
-		E233801617A1858B004DDAC7 /* SPShaderDisplayData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FA717A1858B004DDAC7 /* SPShaderDisplayData.cpp */; };
-		E233801717A1858B004DDAC7 /* SPSpriteDisplayData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FA917A1858B004DDAC7 /* SPSpriteDisplayData.cpp */; };
-		E233801817A1858B004DDAC7 /* SPAnimationData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FAB17A1858B004DDAC7 /* SPAnimationData.cpp */; };
-		E233801917A1858B004DDAC7 /* SPArmatureData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FAD17A1858B004DDAC7 /* SPArmatureData.cpp */; };
-		E233801A17A1858B004DDAC7 /* SPBoneData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FAF17A1858B004DDAC7 /* SPBoneData.cpp */; };
-		E233801B17A1858B004DDAC7 /* SPContourData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FB117A1858B004DDAC7 /* SPContourData.cpp */; };
-		E233801C17A1858B004DDAC7 /* SPFrameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FB317A1858B004DDAC7 /* SPFrameData.cpp */; };
-		E233801D17A1858B004DDAC7 /* SPJsonData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FB517A1858B004DDAC7 /* SPJsonData.cpp */; };
-		E233801E17A1858B004DDAC7 /* SPMovementBoneData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FB717A1858B004DDAC7 /* SPMovementBoneData.cpp */; };
-		E233801F17A1858B004DDAC7 /* SPMovementData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FB917A1858B004DDAC7 /* SPMovementData.cpp */; };
-		E233802017A1858B004DDAC7 /* SPMovementFrameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FBB17A1858B004DDAC7 /* SPMovementFrameData.cpp */; };
-		E233802117A1858B004DDAC7 /* SPNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FBD17A1858B004DDAC7 /* SPNode.cpp */; };
-		E233802217A1858B004DDAC7 /* SPTextureData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FBF17A1858B004DDAC7 /* SPTextureData.cpp */; };
-		E233802317A1858B004DDAC7 /* CCTexture2DMutable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FC217A1858B004DDAC7 /* CCTexture2DMutable.cpp */; };
-		E233802417A1858B004DDAC7 /* SPArmatureDisplayFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FC517A1858B004DDAC7 /* SPArmatureDisplayFactory.cpp */; };
-		E233802517A1858B004DDAC7 /* SPDisplayFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FC717A1858B004DDAC7 /* SPDisplayFactory.cpp */; };
-		E233802617A1858B004DDAC7 /* SPDisplayFactoryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FC917A1858B004DDAC7 /* SPDisplayFactoryManager.cpp */; };
-		E233802717A1858B004DDAC7 /* SPParticleDisplayFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FCB17A1858B004DDAC7 /* SPParticleDisplayFactory.cpp */; };
-		E233802817A1858B004DDAC7 /* SPShaderDisplayFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FCD17A1858B004DDAC7 /* SPShaderDisplayFactory.cpp */; };
-		E233802917A1858B004DDAC7 /* SPSpriteDisplayFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FCF17A1858B004DDAC7 /* SPSpriteDisplayFactory.cpp */; };
-		E233802A17A1858B004DDAC7 /* SPContourPoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FD117A1858B004DDAC7 /* SPContourPoints.cpp */; };
-		E233802B17A1858B004DDAC7 /* SPContourSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FD317A1858B004DDAC7 /* SPContourSprite.cpp */; };
-		E233802C17A1858B004DDAC7 /* SPDecorativeDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FD517A1858B004DDAC7 /* SPDecorativeDisplay.cpp */; };
-		E233802D17A1858B004DDAC7 /* SPDisplayManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FD717A1858B004DDAC7 /* SPDisplayManager.cpp */; };
-		E233802E17A1858B004DDAC7 /* SPShaderNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FD917A1858B004DDAC7 /* SPShaderNode.cpp */; };
-		E233802F17A1858B004DDAC7 /* json_internalarray.inl in Resources */ = {isa = PBXBuildFile; fileRef = E2337FE817A1858B004DDAC7 /* json_internalarray.inl */; };
-		E233803017A1858B004DDAC7 /* json_internalmap.inl in Resources */ = {isa = PBXBuildFile; fileRef = E2337FE917A1858B004DDAC7 /* json_internalmap.inl */; };
-		E233803117A1858B004DDAC7 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FEA17A1858B004DDAC7 /* json_reader.cpp */; };
-		E233803217A1858B004DDAC7 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FEC17A1858B004DDAC7 /* json_value.cpp */; };
-		E233803317A1858B004DDAC7 /* json_valueiterator.inl in Resources */ = {isa = PBXBuildFile; fileRef = E2337FED17A1858B004DDAC7 /* json_valueiterator.inl */; };
-		E233803417A1858B004DDAC7 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FEE17A1858B004DDAC7 /* json_writer.cpp */; };
-		E233803517A1858B004DDAC7 /* sconscript in Resources */ = {isa = PBXBuildFile; fileRef = E2337FEF17A1858B004DDAC7 /* sconscript */; };
-		E233803617A1858B004DDAC7 /* SPContentJsonDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FF017A1858B004DDAC7 /* SPContentJsonDictionary.cpp */; };
-		E233803717A1858B004DDAC7 /* SPArmature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FF317A1858B004DDAC7 /* SPArmature.cpp */; };
-		E233803817A1858B004DDAC7 /* SPBone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FF517A1858B004DDAC7 /* SPBone.cpp */; };
-		E233803917A1858B004DDAC7 /* SPArmatureDataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FF817A1858B004DDAC7 /* SPArmatureDataManager.cpp */; };
-		E233803A17A1858B004DDAC7 /* SPBatchNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FFB17A1858B004DDAC7 /* SPBatchNode.cpp */; };
-		E233803B17A1858B004DDAC7 /* SPBatchNodeManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2337FFD17A1858B004DDAC7 /* SPBatchNodeManager.cpp */; };
-		E233803C17A1858B004DDAC7 /* SPDataReaderHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E233800017A1858B004DDAC7 /* SPDataReaderHelper.cpp */; };
-		E233803D17A1858B004DDAC7 /* SPTransformHelp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E233800217A1858B004DDAC7 /* SPTransformHelp.cpp */; };
-		E233803E17A1858B004DDAC7 /* SPTweenFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E233800417A1858B004DDAC7 /* SPTweenFunction.cpp */; };
-		E233803F17A1858B004DDAC7 /* SPUtilMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E233800617A1858B004DDAC7 /* SPUtilMath.cpp */; };
 		E233804017A1858B004DDAC7 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E233800917A1858B004DDAC7 /* tinystr.cpp */; };
 		E233804117A1858B004DDAC7 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E233800B17A1858B004DDAC7 /* tinyxml.cpp */; };
 		E233804217A1858B004DDAC7 /* tinyxml.suo in Resources */ = {isa = PBXBuildFile; fileRef = E233800D17A1858B004DDAC7 /* tinyxml.suo */; };
 		E233804317A1858B004DDAC7 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E233800E17A1858B004DDAC7 /* tinyxmlerror.cpp */; };
 		E233804417A1858B004DDAC7 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E233800F17A1858B004DDAC7 /* tinyxmlparser.cpp */; };
-		E25F8FB417A1F4240068B034 /* TSPAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E25F8FAF17A1F4240068B034 /* TSPAnimation.cpp */; };
-		E25F8FB917A1F80D0068B034 /* TSPAnimationLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E25F8FB717A1F80D0068B034 /* TSPAnimationLoader.cpp */; };
+		E24F61B217BB836B00148D85 /* TAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24F61B017BB836B00148D85 /* TAnimation.cpp */; };
+		E24F61C417BBC79200148D85 /* TAnimationLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24F61C017BBC79200148D85 /* TAnimationLoader.cpp */; };
+		E293E8C417B3BAC700BA3475 /* BattleParseLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E293E8C217B3BAC700BA3475 /* BattleParseLoader.cpp */; };
+		E2952AC317AFC8AB005E7F80 /* BattleParse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2952AC217AFC8AB005E7F80 /* BattleParse.cpp */; };
 		F4323CF716D3298E0072B773 /* libquickcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F48F590816D21F8C000651BE /* libquickcocos2dx.a */; };
 		F4482F2116A0555000FDDDAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4482F1A16A0555000FDDDAD /* Default-568h@2x.png */; };
 		F4482F2216A0555000FDDDAD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4482F1B16A0555000FDDDAD /* Default.png */; };
@@ -103,108 +57,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E2337F9917A1858B004DDAC7 /* SPAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPAnimation.cpp; sourceTree = "<group>"; };
-		E2337F9A17A1858B004DDAC7 /* SPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAnimation.h; sourceTree = "<group>"; };
-		E2337F9B17A1858B004DDAC7 /* SPProcessBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPProcessBase.cpp; sourceTree = "<group>"; };
-		E2337F9C17A1858B004DDAC7 /* SPProcessBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPProcessBase.h; sourceTree = "<group>"; };
-		E2337F9D17A1858B004DDAC7 /* SPTween.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPTween.cpp; sourceTree = "<group>"; };
-		E2337F9E17A1858B004DDAC7 /* SPTween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTween.h; sourceTree = "<group>"; };
-		E2337FA117A1858B004DDAC7 /* SPArmatureDisplayData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPArmatureDisplayData.cpp; sourceTree = "<group>"; };
-		E2337FA217A1858B004DDAC7 /* SPArmatureDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArmatureDisplayData.h; sourceTree = "<group>"; };
-		E2337FA317A1858B004DDAC7 /* SPDisplayData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPDisplayData.cpp; sourceTree = "<group>"; };
-		E2337FA417A1858B004DDAC7 /* SPDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDisplayData.h; sourceTree = "<group>"; };
-		E2337FA517A1858B004DDAC7 /* SPParticleDisplayData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPParticleDisplayData.cpp; sourceTree = "<group>"; };
-		E2337FA617A1858B004DDAC7 /* SPParticleDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPParticleDisplayData.h; sourceTree = "<group>"; };
-		E2337FA717A1858B004DDAC7 /* SPShaderDisplayData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPShaderDisplayData.cpp; sourceTree = "<group>"; };
-		E2337FA817A1858B004DDAC7 /* SPShaderDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPShaderDisplayData.h; sourceTree = "<group>"; };
-		E2337FA917A1858B004DDAC7 /* SPSpriteDisplayData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPSpriteDisplayData.cpp; sourceTree = "<group>"; };
-		E2337FAA17A1858B004DDAC7 /* SPSpriteDisplayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSpriteDisplayData.h; sourceTree = "<group>"; };
-		E2337FAB17A1858B004DDAC7 /* SPAnimationData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPAnimationData.cpp; sourceTree = "<group>"; };
-		E2337FAC17A1858B004DDAC7 /* SPAnimationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAnimationData.h; sourceTree = "<group>"; };
-		E2337FAD17A1858B004DDAC7 /* SPArmatureData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPArmatureData.cpp; sourceTree = "<group>"; };
-		E2337FAE17A1858B004DDAC7 /* SPArmatureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArmatureData.h; sourceTree = "<group>"; };
-		E2337FAF17A1858B004DDAC7 /* SPBoneData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPBoneData.cpp; sourceTree = "<group>"; };
-		E2337FB017A1858B004DDAC7 /* SPBoneData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBoneData.h; sourceTree = "<group>"; };
-		E2337FB117A1858B004DDAC7 /* SPContourData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPContourData.cpp; sourceTree = "<group>"; };
-		E2337FB217A1858B004DDAC7 /* SPContourData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPContourData.h; sourceTree = "<group>"; };
-		E2337FB317A1858B004DDAC7 /* SPFrameData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPFrameData.cpp; sourceTree = "<group>"; };
-		E2337FB417A1858B004DDAC7 /* SPFrameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFrameData.h; sourceTree = "<group>"; };
-		E2337FB517A1858B004DDAC7 /* SPJsonData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPJsonData.cpp; sourceTree = "<group>"; };
-		E2337FB617A1858B004DDAC7 /* SPJsonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPJsonData.h; sourceTree = "<group>"; };
-		E2337FB717A1858B004DDAC7 /* SPMovementBoneData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPMovementBoneData.cpp; sourceTree = "<group>"; };
-		E2337FB817A1858B004DDAC7 /* SPMovementBoneData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMovementBoneData.h; sourceTree = "<group>"; };
-		E2337FB917A1858B004DDAC7 /* SPMovementData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPMovementData.cpp; sourceTree = "<group>"; };
-		E2337FBA17A1858B004DDAC7 /* SPMovementData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMovementData.h; sourceTree = "<group>"; };
-		E2337FBB17A1858B004DDAC7 /* SPMovementFrameData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPMovementFrameData.cpp; sourceTree = "<group>"; };
-		E2337FBC17A1858B004DDAC7 /* SPMovementFrameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMovementFrameData.h; sourceTree = "<group>"; };
-		E2337FBD17A1858B004DDAC7 /* SPNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPNode.cpp; sourceTree = "<group>"; };
-		E2337FBE17A1858B004DDAC7 /* SPNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNode.h; sourceTree = "<group>"; };
-		E2337FBF17A1858B004DDAC7 /* SPTextureData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPTextureData.cpp; sourceTree = "<group>"; };
-		E2337FC017A1858B004DDAC7 /* SPTextureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTextureData.h; sourceTree = "<group>"; };
-		E2337FC217A1858B004DDAC7 /* CCTexture2DMutable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCTexture2DMutable.cpp; sourceTree = "<group>"; };
-		E2337FC317A1858B004DDAC7 /* CCTexture2DMutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTexture2DMutable.h; sourceTree = "<group>"; };
-		E2337FC517A1858B004DDAC7 /* SPArmatureDisplayFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPArmatureDisplayFactory.cpp; sourceTree = "<group>"; };
-		E2337FC617A1858B004DDAC7 /* SPArmatureDisplayFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArmatureDisplayFactory.h; sourceTree = "<group>"; };
-		E2337FC717A1858B004DDAC7 /* SPDisplayFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPDisplayFactory.cpp; sourceTree = "<group>"; };
-		E2337FC817A1858B004DDAC7 /* SPDisplayFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDisplayFactory.h; sourceTree = "<group>"; };
-		E2337FC917A1858B004DDAC7 /* SPDisplayFactoryManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPDisplayFactoryManager.cpp; sourceTree = "<group>"; };
-		E2337FCA17A1858B004DDAC7 /* SPDisplayFactoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDisplayFactoryManager.h; sourceTree = "<group>"; };
-		E2337FCB17A1858B004DDAC7 /* SPParticleDisplayFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPParticleDisplayFactory.cpp; sourceTree = "<group>"; };
-		E2337FCC17A1858B004DDAC7 /* SPParticleDisplayFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPParticleDisplayFactory.h; sourceTree = "<group>"; };
-		E2337FCD17A1858B004DDAC7 /* SPShaderDisplayFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPShaderDisplayFactory.cpp; sourceTree = "<group>"; };
-		E2337FCE17A1858B004DDAC7 /* SPShaderDisplayFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPShaderDisplayFactory.h; sourceTree = "<group>"; };
-		E2337FCF17A1858B004DDAC7 /* SPSpriteDisplayFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPSpriteDisplayFactory.cpp; sourceTree = "<group>"; };
-		E2337FD017A1858B004DDAC7 /* SPSpriteDisplayFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSpriteDisplayFactory.h; sourceTree = "<group>"; };
-		E2337FD117A1858B004DDAC7 /* SPContourPoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPContourPoints.cpp; sourceTree = "<group>"; };
-		E2337FD217A1858B004DDAC7 /* SPContourPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPContourPoints.h; sourceTree = "<group>"; };
-		E2337FD317A1858B004DDAC7 /* SPContourSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPContourSprite.cpp; sourceTree = "<group>"; };
-		E2337FD417A1858B004DDAC7 /* SPContourSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPContourSprite.h; sourceTree = "<group>"; };
-		E2337FD517A1858B004DDAC7 /* SPDecorativeDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPDecorativeDisplay.cpp; sourceTree = "<group>"; };
-		E2337FD617A1858B004DDAC7 /* SPDecorativeDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDecorativeDisplay.h; sourceTree = "<group>"; };
-		E2337FD717A1858B004DDAC7 /* SPDisplayManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPDisplayManager.cpp; sourceTree = "<group>"; };
-		E2337FD817A1858B004DDAC7 /* SPDisplayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDisplayManager.h; sourceTree = "<group>"; };
-		E2337FD917A1858B004DDAC7 /* SPShaderNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPShaderNode.cpp; sourceTree = "<group>"; };
-		E2337FDA17A1858B004DDAC7 /* SPShaderNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPShaderNode.h; sourceTree = "<group>"; };
-		E2337FDE17A1858B004DDAC7 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
-		E2337FDF17A1858B004DDAC7 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		E2337FE017A1858B004DDAC7 /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
-		E2337FE117A1858B004DDAC7 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
-		E2337FE217A1858B004DDAC7 /* json_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_lib.h; sourceTree = "<group>"; };
-		E2337FE317A1858B004DDAC7 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
-		E2337FE417A1858B004DDAC7 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
-		E2337FE517A1858B004DDAC7 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
-		E2337FE717A1858B004DDAC7 /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
-		E2337FE817A1858B004DDAC7 /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
-		E2337FE917A1858B004DDAC7 /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
-		E2337FEA17A1858B004DDAC7 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
-		E2337FEB17A1858B004DDAC7 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_tool.h; sourceTree = "<group>"; };
-		E2337FEC17A1858B004DDAC7 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
-		E2337FED17A1858B004DDAC7 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
-		E2337FEE17A1858B004DDAC7 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
-		E2337FEF17A1858B004DDAC7 /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
-		E2337FF017A1858B004DDAC7 /* SPContentJsonDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPContentJsonDictionary.cpp; sourceTree = "<group>"; };
-		E2337FF117A1858B004DDAC7 /* SPContentJsonDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPContentJsonDictionary.h; sourceTree = "<group>"; };
-		E2337FF217A1858B004DDAC7 /* sigslot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sigslot.h; sourceTree = "<group>"; };
-		E2337FF317A1858B004DDAC7 /* SPArmature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPArmature.cpp; sourceTree = "<group>"; };
-		E2337FF417A1858B004DDAC7 /* SPArmature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArmature.h; sourceTree = "<group>"; };
-		E2337FF517A1858B004DDAC7 /* SPBone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPBone.cpp; sourceTree = "<group>"; };
-		E2337FF617A1858B004DDAC7 /* SPBone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBone.h; sourceTree = "<group>"; };
-		E2337FF817A1858B004DDAC7 /* SPArmatureDataManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPArmatureDataManager.cpp; sourceTree = "<group>"; };
-		E2337FF917A1858B004DDAC7 /* SPArmatureDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArmatureDataManager.h; sourceTree = "<group>"; };
-		E2337FFA17A1858B004DDAC7 /* SPArmatureDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPArmatureDefine.h; sourceTree = "<group>"; };
-		E2337FFB17A1858B004DDAC7 /* SPBatchNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPBatchNode.cpp; sourceTree = "<group>"; };
-		E2337FFC17A1858B004DDAC7 /* SPBatchNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBatchNode.h; sourceTree = "<group>"; };
-		E2337FFD17A1858B004DDAC7 /* SPBatchNodeManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPBatchNodeManager.cpp; sourceTree = "<group>"; };
-		E2337FFE17A1858B004DDAC7 /* SPBatchNodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBatchNodeManager.h; sourceTree = "<group>"; };
-		E2337FFF17A1858B004DDAC7 /* SPConstValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPConstValue.h; sourceTree = "<group>"; };
-		E233800017A1858B004DDAC7 /* SPDataReaderHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPDataReaderHelper.cpp; sourceTree = "<group>"; };
-		E233800117A1858B004DDAC7 /* SPDataReaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDataReaderHelper.h; sourceTree = "<group>"; };
-		E233800217A1858B004DDAC7 /* SPTransformHelp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPTransformHelp.cpp; sourceTree = "<group>"; };
-		E233800317A1858B004DDAC7 /* SPTransformHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTransformHelp.h; sourceTree = "<group>"; };
-		E233800417A1858B004DDAC7 /* SPTweenFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPTweenFunction.cpp; sourceTree = "<group>"; };
-		E233800517A1858B004DDAC7 /* SPTweenFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTweenFunction.h; sourceTree = "<group>"; };
-		E233800617A1858B004DDAC7 /* SPUtilMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPUtilMath.cpp; sourceTree = "<group>"; };
-		E233800717A1858B004DDAC7 /* SPUtilMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPUtilMath.h; sourceTree = "<group>"; };
 		E233800917A1858B004DDAC7 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
 		E233800A17A1858B004DDAC7 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
 		E233800B17A1858B004DDAC7 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
@@ -212,10 +64,14 @@
 		E233800D17A1858B004DDAC7 /* tinyxml.suo */ = {isa = PBXFileReference; lastKnownFileType = file; path = tinyxml.suo; sourceTree = "<group>"; };
 		E233800E17A1858B004DDAC7 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
 		E233800F17A1858B004DDAC7 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
-		E25F8FAF17A1F4240068B034 /* TSPAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TSPAnimation.cpp; sourceTree = "<group>"; };
-		E25F8FB017A1F4240068B034 /* TSPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPAnimation.h; sourceTree = "<group>"; };
-		E25F8FB717A1F80D0068B034 /* TSPAnimationLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TSPAnimationLoader.cpp; sourceTree = "<group>"; };
-		E25F8FB817A1F80D0068B034 /* TSPAnimationLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPAnimationLoader.h; sourceTree = "<group>"; };
+		E24F61B017BB836B00148D85 /* TAnimation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TAnimation.cpp; sourceTree = "<group>"; };
+		E24F61B117BB836B00148D85 /* TAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAnimation.h; sourceTree = "<group>"; };
+		E24F61C017BBC79200148D85 /* TAnimationLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TAnimationLoader.cpp; sourceTree = "<group>"; };
+		E24F61C117BBC79200148D85 /* TAnimationLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAnimationLoader.h; sourceTree = "<group>"; };
+		E293E8C217B3BAC700BA3475 /* BattleParseLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BattleParseLoader.cpp; sourceTree = "<group>"; };
+		E293E8C317B3BAC700BA3475 /* BattleParseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleParseLoader.h; sourceTree = "<group>"; };
+		E2952AC117AFC7CF005E7F80 /* BattleParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleParse.h; sourceTree = "<group>"; };
+		E2952AC217AFC8AB005E7F80 /* BattleParse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BattleParse.cpp; sourceTree = "<group>"; };
 		F4482F1A16A0555000FDDDAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F4482F1B16A0555000FDDDAD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F4482F1C16A0555000FDDDAD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -280,195 +136,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E2337F9717A1858B004DDAC7 /* SPArmature */ = {
-			isa = PBXGroup;
-			children = (
-				E2337F9817A1858B004DDAC7 /* animation */,
-				E2337F9F17A1858B004DDAC7 /* datas */,
-				E2337FC117A1858B004DDAC7 /* display */,
-				E2337FDB17A1858B004DDAC7 /* external_tool */,
-				E2337FF317A1858B004DDAC7 /* SPArmature.cpp */,
-				E2337FF417A1858B004DDAC7 /* SPArmature.h */,
-				E2337FF517A1858B004DDAC7 /* SPBone.cpp */,
-				E2337FF617A1858B004DDAC7 /* SPBone.h */,
-				E2337FF717A1858B004DDAC7 /* utils */,
-			);
-			path = SPArmature;
-			sourceTree = "<group>";
-		};
-		E2337F9817A1858B004DDAC7 /* animation */ = {
-			isa = PBXGroup;
-			children = (
-				E2337F9917A1858B004DDAC7 /* SPAnimation.cpp */,
-				E2337F9A17A1858B004DDAC7 /* SPAnimation.h */,
-				E2337F9B17A1858B004DDAC7 /* SPProcessBase.cpp */,
-				E2337F9C17A1858B004DDAC7 /* SPProcessBase.h */,
-				E2337F9D17A1858B004DDAC7 /* SPTween.cpp */,
-				E2337F9E17A1858B004DDAC7 /* SPTween.h */,
-			);
-			path = animation;
-			sourceTree = "<group>";
-		};
-		E2337F9F17A1858B004DDAC7 /* datas */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FA017A1858B004DDAC7 /* display_data */,
-				E2337FAB17A1858B004DDAC7 /* SPAnimationData.cpp */,
-				E2337FAC17A1858B004DDAC7 /* SPAnimationData.h */,
-				E2337FAD17A1858B004DDAC7 /* SPArmatureData.cpp */,
-				E2337FAE17A1858B004DDAC7 /* SPArmatureData.h */,
-				E2337FAF17A1858B004DDAC7 /* SPBoneData.cpp */,
-				E2337FB017A1858B004DDAC7 /* SPBoneData.h */,
-				E2337FB117A1858B004DDAC7 /* SPContourData.cpp */,
-				E2337FB217A1858B004DDAC7 /* SPContourData.h */,
-				E2337FB317A1858B004DDAC7 /* SPFrameData.cpp */,
-				E2337FB417A1858B004DDAC7 /* SPFrameData.h */,
-				E2337FB517A1858B004DDAC7 /* SPJsonData.cpp */,
-				E2337FB617A1858B004DDAC7 /* SPJsonData.h */,
-				E2337FB717A1858B004DDAC7 /* SPMovementBoneData.cpp */,
-				E2337FB817A1858B004DDAC7 /* SPMovementBoneData.h */,
-				E2337FB917A1858B004DDAC7 /* SPMovementData.cpp */,
-				E2337FBA17A1858B004DDAC7 /* SPMovementData.h */,
-				E2337FBB17A1858B004DDAC7 /* SPMovementFrameData.cpp */,
-				E2337FBC17A1858B004DDAC7 /* SPMovementFrameData.h */,
-				E2337FBD17A1858B004DDAC7 /* SPNode.cpp */,
-				E2337FBE17A1858B004DDAC7 /* SPNode.h */,
-				E2337FBF17A1858B004DDAC7 /* SPTextureData.cpp */,
-				E2337FC017A1858B004DDAC7 /* SPTextureData.h */,
-			);
-			path = datas;
-			sourceTree = "<group>";
-		};
-		E2337FA017A1858B004DDAC7 /* display_data */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FA117A1858B004DDAC7 /* SPArmatureDisplayData.cpp */,
-				E2337FA217A1858B004DDAC7 /* SPArmatureDisplayData.h */,
-				E2337FA317A1858B004DDAC7 /* SPDisplayData.cpp */,
-				E2337FA417A1858B004DDAC7 /* SPDisplayData.h */,
-				E2337FA517A1858B004DDAC7 /* SPParticleDisplayData.cpp */,
-				E2337FA617A1858B004DDAC7 /* SPParticleDisplayData.h */,
-				E2337FA717A1858B004DDAC7 /* SPShaderDisplayData.cpp */,
-				E2337FA817A1858B004DDAC7 /* SPShaderDisplayData.h */,
-				E2337FA917A1858B004DDAC7 /* SPSpriteDisplayData.cpp */,
-				E2337FAA17A1858B004DDAC7 /* SPSpriteDisplayData.h */,
-			);
-			path = display_data;
-			sourceTree = "<group>";
-		};
-		E2337FC117A1858B004DDAC7 /* display */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FC217A1858B004DDAC7 /* CCTexture2DMutable.cpp */,
-				E2337FC317A1858B004DDAC7 /* CCTexture2DMutable.h */,
-				E2337FC417A1858B004DDAC7 /* display_factory */,
-				E2337FD117A1858B004DDAC7 /* SPContourPoints.cpp */,
-				E2337FD217A1858B004DDAC7 /* SPContourPoints.h */,
-				E2337FD317A1858B004DDAC7 /* SPContourSprite.cpp */,
-				E2337FD417A1858B004DDAC7 /* SPContourSprite.h */,
-				E2337FD517A1858B004DDAC7 /* SPDecorativeDisplay.cpp */,
-				E2337FD617A1858B004DDAC7 /* SPDecorativeDisplay.h */,
-				E2337FD717A1858B004DDAC7 /* SPDisplayManager.cpp */,
-				E2337FD817A1858B004DDAC7 /* SPDisplayManager.h */,
-				E2337FD917A1858B004DDAC7 /* SPShaderNode.cpp */,
-				E2337FDA17A1858B004DDAC7 /* SPShaderNode.h */,
-			);
-			path = display;
-			sourceTree = "<group>";
-		};
-		E2337FC417A1858B004DDAC7 /* display_factory */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FC517A1858B004DDAC7 /* SPArmatureDisplayFactory.cpp */,
-				E2337FC617A1858B004DDAC7 /* SPArmatureDisplayFactory.h */,
-				E2337FC717A1858B004DDAC7 /* SPDisplayFactory.cpp */,
-				E2337FC817A1858B004DDAC7 /* SPDisplayFactory.h */,
-				E2337FC917A1858B004DDAC7 /* SPDisplayFactoryManager.cpp */,
-				E2337FCA17A1858B004DDAC7 /* SPDisplayFactoryManager.h */,
-				E2337FCB17A1858B004DDAC7 /* SPParticleDisplayFactory.cpp */,
-				E2337FCC17A1858B004DDAC7 /* SPParticleDisplayFactory.h */,
-				E2337FCD17A1858B004DDAC7 /* SPShaderDisplayFactory.cpp */,
-				E2337FCE17A1858B004DDAC7 /* SPShaderDisplayFactory.h */,
-				E2337FCF17A1858B004DDAC7 /* SPSpriteDisplayFactory.cpp */,
-				E2337FD017A1858B004DDAC7 /* SPSpriteDisplayFactory.h */,
-			);
-			path = display_factory;
-			sourceTree = "<group>";
-		};
-		E2337FDB17A1858B004DDAC7 /* external_tool */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FDC17A1858B004DDAC7 /* Json */,
-				E2337FF217A1858B004DDAC7 /* sigslot.h */,
-			);
-			path = external_tool;
-			sourceTree = "<group>";
-		};
-		E2337FDC17A1858B004DDAC7 /* Json */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FDD17A1858B004DDAC7 /* json */,
-				E2337FE617A1858B004DDAC7 /* lib_json */,
-				E2337FF017A1858B004DDAC7 /* SPContentJsonDictionary.cpp */,
-				E2337FF117A1858B004DDAC7 /* SPContentJsonDictionary.h */,
-			);
-			path = Json;
-			sourceTree = "<group>";
-		};
-		E2337FDD17A1858B004DDAC7 /* json */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FDE17A1858B004DDAC7 /* autolink.h */,
-				E2337FDF17A1858B004DDAC7 /* config.h */,
-				E2337FE017A1858B004DDAC7 /* features.h */,
-				E2337FE117A1858B004DDAC7 /* forwards.h */,
-				E2337FE217A1858B004DDAC7 /* json_lib.h */,
-				E2337FE317A1858B004DDAC7 /* reader.h */,
-				E2337FE417A1858B004DDAC7 /* value.h */,
-				E2337FE517A1858B004DDAC7 /* writer.h */,
-			);
-			path = json;
-			sourceTree = "<group>";
-		};
-		E2337FE617A1858B004DDAC7 /* lib_json */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FE717A1858B004DDAC7 /* json_batchallocator.h */,
-				E2337FE817A1858B004DDAC7 /* json_internalarray.inl */,
-				E2337FE917A1858B004DDAC7 /* json_internalmap.inl */,
-				E2337FEA17A1858B004DDAC7 /* json_reader.cpp */,
-				E2337FEB17A1858B004DDAC7 /* json_tool.h */,
-				E2337FEC17A1858B004DDAC7 /* json_value.cpp */,
-				E2337FED17A1858B004DDAC7 /* json_valueiterator.inl */,
-				E2337FEE17A1858B004DDAC7 /* json_writer.cpp */,
-				E2337FEF17A1858B004DDAC7 /* sconscript */,
-			);
-			path = lib_json;
-			sourceTree = "<group>";
-		};
-		E2337FF717A1858B004DDAC7 /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				E2337FF817A1858B004DDAC7 /* SPArmatureDataManager.cpp */,
-				E2337FF917A1858B004DDAC7 /* SPArmatureDataManager.h */,
-				E2337FFA17A1858B004DDAC7 /* SPArmatureDefine.h */,
-				E2337FFB17A1858B004DDAC7 /* SPBatchNode.cpp */,
-				E2337FFC17A1858B004DDAC7 /* SPBatchNode.h */,
-				E2337FFD17A1858B004DDAC7 /* SPBatchNodeManager.cpp */,
-				E2337FFE17A1858B004DDAC7 /* SPBatchNodeManager.h */,
-				E2337FFF17A1858B004DDAC7 /* SPConstValue.h */,
-				E233800017A1858B004DDAC7 /* SPDataReaderHelper.cpp */,
-				E233800117A1858B004DDAC7 /* SPDataReaderHelper.h */,
-				E233800217A1858B004DDAC7 /* SPTransformHelp.cpp */,
-				E233800317A1858B004DDAC7 /* SPTransformHelp.h */,
-				E233800417A1858B004DDAC7 /* SPTweenFunction.cpp */,
-				E233800517A1858B004DDAC7 /* SPTweenFunction.h */,
-				E233800617A1858B004DDAC7 /* SPUtilMath.cpp */,
-				E233800717A1858B004DDAC7 /* SPUtilMath.h */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
 		E233800817A1858B004DDAC7 /* tinyxml */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,8 +153,8 @@
 		E25F8FAE17A1F4240068B034 /* animation */ = {
 			isa = PBXGroup;
 			children = (
-				E25F8FAF17A1F4240068B034 /* TSPAnimation.cpp */,
-				E25F8FB017A1F4240068B034 /* TSPAnimation.h */,
+				E24F61B017BB836B00148D85 /* TAnimation.cpp */,
+				E24F61B117BB836B00148D85 /* TAnimation.h */,
 			);
 			path = animation;
 			sourceTree = "<group>";
@@ -495,10 +162,21 @@
 		E25F8FB117A1F4240068B034 /* lualoader */ = {
 			isa = PBXGroup;
 			children = (
-				E25F8FB717A1F80D0068B034 /* TSPAnimationLoader.cpp */,
-				E25F8FB817A1F80D0068B034 /* TSPAnimationLoader.h */,
+				E24F61C017BBC79200148D85 /* TAnimationLoader.cpp */,
+				E24F61C117BBC79200148D85 /* TAnimationLoader.h */,
+				E293E8C217B3BAC700BA3475 /* BattleParseLoader.cpp */,
+				E293E8C317B3BAC700BA3475 /* BattleParseLoader.h */,
 			);
 			path = lualoader;
+			sourceTree = "<group>";
+		};
+		E2952ABE17AFC6FB005E7F80 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E2952AC117AFC7CF005E7F80 /* BattleParse.h */,
+				E2952AC217AFC8AB005E7F80 /* BattleParse.cpp */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 		F456ECB615EE018E00FCF3E2 = {
@@ -602,9 +280,9 @@
 		F4E50FE216CF7B6500AA7E90 /* sources */ = {
 			isa = PBXGroup;
 			children = (
+				E2952ABE17AFC6FB005E7F80 /* utils */,
 				E25F8FAE17A1F4240068B034 /* animation */,
 				E25F8FB117A1F4240068B034 /* lualoader */,
-				E2337F9717A1858B004DDAC7 /* SPArmature */,
 				E233800817A1858B004DDAC7 /* tinyxml */,
 				F4E50FE316CF7B6500AA7E90 /* AppDelegate.cpp */,
 				F4E50FE416CF7B6500AA7E90 /* AppDelegate.h */,
@@ -688,10 +366,6 @@
 				F4482F2616A0555000FDDDAD /* Icon@2x.png in Resources */,
 				F4730C1E16C1509700280298 /* res in Resources */,
 				F4730C1F16C1509700280298 /* scripts in Resources */,
-				E233802F17A1858B004DDAC7 /* json_internalarray.inl in Resources */,
-				E233803017A1858B004DDAC7 /* json_internalmap.inl in Resources */,
-				E233803317A1858B004DDAC7 /* json_valueiterator.inl in Resources */,
-				E233803517A1858B004DDAC7 /* sconscript in Resources */,
 				E233804217A1858B004DDAC7 /* tinyxml.suo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,56 +381,14 @@
 				F4D26BCD16C7D0D2004442B6 /* main.m in Sources */,
 				F4D26BCE16C7D0D2004442B6 /* RootViewController.mm in Sources */,
 				F4E50FE516CF7B6500AA7E90 /* AppDelegate.cpp in Sources */,
-				E233801017A1858B004DDAC7 /* SPAnimation.cpp in Sources */,
-				E233801117A1858B004DDAC7 /* SPProcessBase.cpp in Sources */,
-				E233801217A1858B004DDAC7 /* SPTween.cpp in Sources */,
-				E233801317A1858B004DDAC7 /* SPArmatureDisplayData.cpp in Sources */,
-				E233801417A1858B004DDAC7 /* SPDisplayData.cpp in Sources */,
-				E233801517A1858B004DDAC7 /* SPParticleDisplayData.cpp in Sources */,
-				E233801617A1858B004DDAC7 /* SPShaderDisplayData.cpp in Sources */,
-				E233801717A1858B004DDAC7 /* SPSpriteDisplayData.cpp in Sources */,
-				E233801817A1858B004DDAC7 /* SPAnimationData.cpp in Sources */,
-				E233801917A1858B004DDAC7 /* SPArmatureData.cpp in Sources */,
-				E233801A17A1858B004DDAC7 /* SPBoneData.cpp in Sources */,
-				E233801B17A1858B004DDAC7 /* SPContourData.cpp in Sources */,
-				E233801C17A1858B004DDAC7 /* SPFrameData.cpp in Sources */,
-				E233801D17A1858B004DDAC7 /* SPJsonData.cpp in Sources */,
-				E233801E17A1858B004DDAC7 /* SPMovementBoneData.cpp in Sources */,
-				E233801F17A1858B004DDAC7 /* SPMovementData.cpp in Sources */,
-				E233802017A1858B004DDAC7 /* SPMovementFrameData.cpp in Sources */,
-				E233802117A1858B004DDAC7 /* SPNode.cpp in Sources */,
-				E233802217A1858B004DDAC7 /* SPTextureData.cpp in Sources */,
-				E233802317A1858B004DDAC7 /* CCTexture2DMutable.cpp in Sources */,
-				E233802417A1858B004DDAC7 /* SPArmatureDisplayFactory.cpp in Sources */,
-				E233802517A1858B004DDAC7 /* SPDisplayFactory.cpp in Sources */,
-				E233802617A1858B004DDAC7 /* SPDisplayFactoryManager.cpp in Sources */,
-				E233802717A1858B004DDAC7 /* SPParticleDisplayFactory.cpp in Sources */,
-				E233802817A1858B004DDAC7 /* SPShaderDisplayFactory.cpp in Sources */,
-				E233802917A1858B004DDAC7 /* SPSpriteDisplayFactory.cpp in Sources */,
-				E233802A17A1858B004DDAC7 /* SPContourPoints.cpp in Sources */,
-				E233802B17A1858B004DDAC7 /* SPContourSprite.cpp in Sources */,
-				E233802C17A1858B004DDAC7 /* SPDecorativeDisplay.cpp in Sources */,
-				E233802D17A1858B004DDAC7 /* SPDisplayManager.cpp in Sources */,
-				E233802E17A1858B004DDAC7 /* SPShaderNode.cpp in Sources */,
-				E233803117A1858B004DDAC7 /* json_reader.cpp in Sources */,
-				E233803217A1858B004DDAC7 /* json_value.cpp in Sources */,
-				E233803417A1858B004DDAC7 /* json_writer.cpp in Sources */,
-				E233803617A1858B004DDAC7 /* SPContentJsonDictionary.cpp in Sources */,
-				E233803717A1858B004DDAC7 /* SPArmature.cpp in Sources */,
-				E233803817A1858B004DDAC7 /* SPBone.cpp in Sources */,
-				E233803917A1858B004DDAC7 /* SPArmatureDataManager.cpp in Sources */,
-				E233803A17A1858B004DDAC7 /* SPBatchNode.cpp in Sources */,
-				E233803B17A1858B004DDAC7 /* SPBatchNodeManager.cpp in Sources */,
-				E233803C17A1858B004DDAC7 /* SPDataReaderHelper.cpp in Sources */,
-				E233803D17A1858B004DDAC7 /* SPTransformHelp.cpp in Sources */,
-				E233803E17A1858B004DDAC7 /* SPTweenFunction.cpp in Sources */,
-				E233803F17A1858B004DDAC7 /* SPUtilMath.cpp in Sources */,
 				E233804017A1858B004DDAC7 /* tinystr.cpp in Sources */,
 				E233804117A1858B004DDAC7 /* tinyxml.cpp in Sources */,
 				E233804317A1858B004DDAC7 /* tinyxmlerror.cpp in Sources */,
 				E233804417A1858B004DDAC7 /* tinyxmlparser.cpp in Sources */,
-				E25F8FB417A1F4240068B034 /* TSPAnimation.cpp in Sources */,
-				E25F8FB917A1F80D0068B034 /* TSPAnimationLoader.cpp in Sources */,
+				E2952AC317AFC8AB005E7F80 /* BattleParse.cpp in Sources */,
+				E293E8C417B3BAC700BA3475 /* BattleParseLoader.cpp in Sources */,
+				E24F61B217BB836B00148D85 /* TAnimation.cpp in Sources */,
+				E24F61C417BBC79200148D85 /* TAnimationLoader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,7 +537,8 @@
 					"\"$(QUICK_COCOS2DX_ROOT)/lib/lua_extensions/zlib\"",
 					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/chipmunk/include\"",
 					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/chipmunk/luabinding\"",
-					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/CSArmature\"",
+					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/CSArmature/display\"",
+					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/CSArmature\"/**",
 					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party\"",
 				);
 				INFOPLIST_FILE = coinflip/Resources/Info.plist;
@@ -972,7 +605,8 @@
 					"\"$(QUICK_COCOS2DX_ROOT)/lib/lua_extensions/zlib\"",
 					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/chipmunk/include\"",
 					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/chipmunk/luabinding\"",
-					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/CSArmature\"",
+					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/CSArmature/display\"",
+					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party/CSArmature\"/**",
 					"\"$(QUICK_COCOS2DX_ROOT)/lib/third_party\"",
 				);
 				INFOPLIST_FILE = coinflip/Resources/Info.plist;

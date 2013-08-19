@@ -1,0 +1,42 @@
+<skeleton name="liulanghan" frameRate="60" version="1.4">
+ <armatures>
+  <armature name="liulanghan">
+   <b name="liulang31" x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100">
+    <d name="liulang_Tween 1_0"/>
+    <d name="liulang_Tween 2_1"/>
+    <d name="liulang_Tween 3_2"/>
+    <d name="liulang_Tween 4_3"/>
+    <d name="liulang_Tween 5_4"/>
+    <d name="liulang_Tween 6_5"/>
+    <d name="liulang_Tween 7_6"/>
+    <d name="liulang_Tween 8_7"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="liulanghan">
+   <mov name="stand" dr="24" to="6" drTW="48" lp="1" twE="NaN">
+    <b name="liulang31" sc="1" dl="0">
+     <f x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="0" twE="0" dr="3"/>
+     <f x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="1" twE="0" dr="3"/>
+     <f x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="2" twE="0" dr="3"/>
+     <f x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="3" twE="0" dr="3"/>
+     <f x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="4" twE="0" dr="3"/>
+     <f x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="5" twE="0" dr="3"/>
+     <f x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="6" twE="0" dr="3"/>
+     <f x="0.85" y="-47.15" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="7" twE="0" dr="3"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="liulanghan" width="256" height="512">
+  <SubTexture name="liulang_Tween 8_7" pX="33" pY="55.5" width="66" height="111" x="68" y="0"/>
+  <SubTexture name="liulang_Tween 7_6" pX="33" pY="55.5" width="66" height="111" x="0" y="226"/>
+  <SubTexture name="liulang_Tween 6_5" pX="33" pY="55.5" width="66" height="111" x="0" y="113"/>
+  <SubTexture name="liulang_Tween 5_4" pX="33" pY="55.5" width="66" height="111" x="68" y="226"/>
+  <SubTexture name="liulang_Tween 4_3" pX="33" pY="55.5" width="66" height="111" x="0" y="0"/>
+  <SubTexture name="liulang_Tween 3_2" pX="33" pY="55.5" width="66" height="111" x="136" y="0"/>
+  <SubTexture name="liulang_Tween 2_1" pX="33" pY="55.5" width="66" height="111" x="68" y="113"/>
+  <SubTexture name="liulang_Tween 1_0" pX="33" pY="55.5" width="66" height="111" x="136" y="113"/>
+ </TextureAtlas>
+</skeleton>

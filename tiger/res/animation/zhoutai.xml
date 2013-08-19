@@ -1,0 +1,271 @@
+<skeleton name="Untitled-8" frameRate="60" version="1.4">
+ <armatures>
+  <armature name="zhoutai">
+   <b name="zhoutai_5" x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100">
+    <d name="zhoutai_Tween 42_41"/>
+    <d name="zhoutai_Tween 43_42"/>
+    <d name="zhoutai_Tween 44_43"/>
+    <d name="zhoutai_Tween 45_44"/>
+    <d name="zhoutai_Tween 46_45"/>
+    <d name="zhoutai_Tween 47_46"/>
+    <d name="zhoutai_Tween 48_47"/>
+    <d name="zhoutai_Tween 49_48"/>
+    <d name="zhoutai_Tween 50_49"/>
+    <d name="zhoutai_Tween 51_50"/>
+    <d name="zhoutai_Tween 52_51"/>
+    <d name="zhoutai_Tween 53_52"/>
+    <d name="zhoutai_Tween 54_53"/>
+    <d name="zhoutai_Tween 55_54"/>
+    <d name="zhoutai_Tween 56_55"/>
+    <d name="zhoutai_Tween 57_56"/>
+    <d name="zhoutai_Tween 58_57"/>
+    <d name="zhoutai_Tween 59_58"/>
+    <d name="zhoutai_Tween 60_59"/>
+    <d name="zhoutai_Tween 61_60"/>
+    <d name="zhoutai_Tween 62_61"/>
+    <d name="zhoutai_Tween 63_62"/>
+    <d name="zhoutai_Tween 64_63"/>
+    <d name="zhoutai_Tween 65_64"/>
+    <d name="zhoutai_Tween 66_65"/>
+    <d name="zhoutai_Tween 67_66"/>
+    <d name="zhoutai_Tween 68_67"/>
+    <d name="zhoutai_Tween 69_68"/>
+    <d name="zhoutai_Tween 70_69"/>
+    <d name="zhoutai_Tween 71_70"/>
+    <d name="zhoutai_Tween 72_71"/>
+    <d name="zhoutai_Tween 73_72"/>
+    <d name="zhoutai_Tween 74_73"/>
+   </b>
+   <b name="zhoutai_2" x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100">
+    <d name="zhoutai_Tween 1_0"/>
+    <d name="zhoutai_Tween 2_1"/>
+    <d name="zhoutai_Tween 3_2"/>
+    <d name="zhoutai_Tween 4_3"/>
+    <d name="zhoutai_Tween 5_4"/>
+    <d name="zhoutai_Tween 6_5"/>
+    <d name="zhoutai_Tween 7_6"/>
+    <d name="zhoutai_Tween 8_7"/>
+    <d name="zhoutai_Tween 9_8"/>
+    <d name="zhoutai_Tween 10_9"/>
+    <d name="zhoutai_Tween 11_10"/>
+    <d name="zhoutai_Tween 12_11"/>
+    <d name="zhoutai_Tween 13_12"/>
+    <d name="zhoutai_Tween 14_13"/>
+    <d name="zhoutai_Tween 15_14"/>
+    <d name="zhoutai_Tween 16_15"/>
+    <d name="zhoutai_Tween 17_16"/>
+    <d name="zhoutai_Tween 18_17"/>
+    <d name="zhoutai_Tween 19_18"/>
+    <d name="zhoutai_Tween 20_19"/>
+    <d name="zhoutai_Tween 21_20"/>
+    <d name="zhoutai_Tween 22_21"/>
+    <d name="zhoutai_Tween 23_22"/>
+    <d name="zhoutai_Tween 24_23"/>
+    <d name="zhoutai_Tween 25_24"/>
+    <d name="zhoutai_Tween 26_25"/>
+    <d name="zhoutai_Tween 27_26"/>
+    <d name="zhoutai_Tween 28_27"/>
+    <d name="zhoutai_Tween 29_28"/>
+    <d name="zhoutai_Tween 30_29"/>
+    <d name="zhoutai_Tween 31_30"/>
+    <d name="zhoutai_Tween 32_31"/>
+    <d name="zhoutai_Tween 33_32"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="zhoutai">
+   <mov name="walk" dr="24" to="6" drTW="48" lp="1" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="0" twE="0" dr="3"/>
+     <f x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="1" twE="0" dr="3"/>
+     <f x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="2" twE="0" dr="3"/>
+     <f x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="3" twE="0" dr="3"/>
+     <f x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="4" twE="0" dr="3"/>
+     <f x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="5" twE="0" dr="3"/>
+     <f x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="6" twE="0" dr="3"/>
+     <f x="-3" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="7" twE="0" dr="3"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="0" twE="0" dr="3"/>
+     <f x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="1" twE="0" dr="3"/>
+     <f x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="2" twE="0" dr="3"/>
+     <f x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="3" twE="0" dr="3"/>
+     <f x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="4" twE="0" dr="3"/>
+     <f x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="5" twE="0" dr="3"/>
+     <f x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="6" twE="0" dr="3"/>
+     <f x="0.85" y="-44.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="7" twE="0" dr="3"/>
+    </b>
+   </mov>
+   <mov name="walkEnd" dr="7" to="6" drTW="7" lp="0" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="8" twE="0" dr="7"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="8" twE="0" dr="7"/>
+    </b>
+   </mov>
+   <mov name="attack" dr="22" to="6" drTW="22" lp="0" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="-8" y="-82" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="9" twE="0" dr="13"/>
+     <f x="-8" y="-82" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="10" twE="0" dr="3"/>
+     <f x="17.5" y="-104" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="11" twE="0" dr="3"/>
+     <f x="18" y="-114.15" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="12" twE="0" dr="3"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="50.1" y="-59.9" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="9" twE="0" dr="3"/>
+     <f x="50.1" y="-59.9" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="10" twE="0" dr="3"/>
+     <f x="50.1" y="-59.9" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="11" twE="0" dr="3"/>
+     <f x="50.1" y="-59.9" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="12" twE="0" dr="3"/>
+     <f x="50.1" y="-59.9" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="13" twE="0" dr="10"/>
+    </b>
+   </mov>
+   <mov name="attackEnd" dr="19" to="6" drTW="19" lp="0" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="4.8" y="-94.15" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="13" twE="0" dr="4"/>
+     <f x="-1.65" y="-83.65" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="14" twE="0" dr="6"/>
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="15" twE="0" dr="9"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="50.1" y="-59.9" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="14" twE="0" dr="6"/>
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="15" twE="0" dr="13"/>
+    </b>
+   </mov>
+   <mov name="stand" dr="24" to="6" drTW="48" lp="1" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="16" twE="0" dr="3"/>
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="17" twE="0" dr="3"/>
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="18" twE="0" dr="3"/>
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="19" twE="0" dr="3"/>
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="20" twE="0" dr="3"/>
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="21" twE="0" dr="3"/>
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="22" twE="0" dr="3"/>
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="23" twE="0" dr="3"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="16" twE="0" dr="3"/>
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="17" twE="0" dr="3"/>
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="18" twE="0" dr="3"/>
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="19" twE="0" dr="3"/>
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="20" twE="0" dr="3"/>
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="21" twE="0" dr="3"/>
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="22" twE="0" dr="3"/>
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="23" twE="0" dr="3"/>
+    </b>
+   </mov>
+   <mov name="standEnd" dr="10" to="6" drTW="10" lp="0" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="24" twE="0" dr="10"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="24" twE="0" dr="10"/>
+    </b>
+   </mov>
+   <mov name="beaten" dr="8" to="6" drTW="8" lp="0" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="-6.4" y="-83.75" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="25" twE="0" dr="4"/>
+     <f x="-5.9" y="-83.45" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="26" twE="0" dr="4"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="-10.15" y="-57.9" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="25" twE="0" dr="4"/>
+     <f x="-10.15" y="-57.9" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="26" twE="0" dr="4"/>
+    </b>
+   </mov>
+   <mov name="beatenEnd" dr="8" to="6" drTW="8" lp="0" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="-4" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="27" twE="0" dr="8"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="-11.15" y="-48.4" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="27" twE="0" dr="8"/>
+    </b>
+   </mov>
+   <mov name="disappear" dr="79" to="6" drTW="79" lp="0" twE="NaN">
+    <b name="zhoutai_5" sc="1" dl="0">
+     <f x="-8" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="28" twE="0" dr="4"/>
+     <f x="-8" y="-84" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="29" twE="0" dr="4"/>
+     <f x="-5.25" y="-78.2" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="30" twE="0" dr="4"/>
+     <f x="-6.15" y="-70.4" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="31" twE="0" dr="4"/>
+     <f x="-7.4" y="-68.65" kX="0" kY="180" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="32" twE="0" dr="4"/>
+     <f dr="59" dI="-1"/>
+    </b>
+    <b name="zhoutai_2" sc="1" dl="0">
+     <f x="-48.9" y="-64.15" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="28" twE="0" dr="4"/>
+     <f x="-48.9" y="-64.15" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="29" twE="0" dr="4"/>
+     <f x="-48.9" y="-64.15" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="30" twE="0" dr="4"/>
+     <f x="-48.9" y="-64.15" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="31" twE="0" dr="4"/>
+     <f x="-48.9" y="-64.15" kX="0" kY="180" cX="1" cY="1" z="1" alpha="100" red="100" green="100" blue="100" dI="32" twE="0" dr="4"/>
+     <f dr="59" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="disappearEnd" dr="1" to="6"/>
+  </animation>
+ </animations>
+ <TextureAtlas name="Untitled-8" width="2048" height="1024">
+  <SubTexture name="zhoutai_Tween 33_32" pX="97.5" pY="86.5" width="195" height="173" x="1019" y="0"/>
+  <SubTexture name="zhoutai_Tween 32_31" pX="97.5" pY="86.5" width="195" height="173" x="625" y="0"/>
+  <SubTexture name="zhoutai_Tween 31_30" pX="97.5" pY="86.5" width="195" height="173" x="822" y="0"/>
+  <SubTexture name="zhoutai_Tween 30_29" pX="97.5" pY="86.5" width="195" height="173" x="231" y="0"/>
+  <SubTexture name="zhoutai_Tween 29_28" pX="97.5" pY="86.5" width="195" height="173" x="428" y="0"/>
+  <SubTexture name="zhoutai_Tween 74_73" pX="85" pY="48.5" width="170" height="97" x="1736" y="288"/>
+  <SubTexture name="zhoutai_Tween 73_72" pX="85" pY="47.5" width="170" height="95" x="0" y="310"/>
+  <SubTexture name="zhoutai_Tween 72_71" pX="87" pY="54.5" width="174" height="109" x="1560" y="288"/>
+  <SubTexture name="zhoutai_Tween 71_70" pX="93.5" pY="61" width="187" height="122" x="946" y="544"/>
+  <SubTexture name="zhoutai_Tween 70_69" pX="95" pY="61" width="190" height="122" x="754" y="544"/>
+  <SubTexture name="zhoutai_Tween 28_27" pX="37.5" pY="54.5" width="75" height="109" x="94" y="518"/>
+  <SubTexture name="zhoutai_Tween 69_68" pX="97.5" pY="60.5" width="195" height="121" x="969" y="175"/>
+  <SubTexture name="zhoutai_Tween 27_26" pX="42.5" pY="55.5" width="85" height="111" x="1830" y="387"/>
+  <SubTexture name="zhoutai_Tween 26_25" pX="42.5" pY="55.5" width="85" height="111" x="1830" y="500"/>
+  <SubTexture name="zhoutai_Tween 68_67" pX="96.5" pY="60.5" width="193" height="121" x="367" y="544"/>
+  <SubTexture name="zhoutai_Tween 67_66" pX="97" pY="60.5" width="194" height="121" x="956" y="421"/>
+  <SubTexture name="zhoutai_Tween 25_24" pX="37.5" pY="54.5" width="75" height="109" x="1557" y="529"/>
+  <SubTexture name="zhoutai_Tween 66_65" pX="97.5" pY="60.5" width="195" height="121" x="178" y="298"/>
+  <SubTexture name="zhoutai_Tween 24_23" pX="37.5" pY="54.5" width="75" height="109" x="1654" y="399"/>
+  <SubTexture name="zhoutai_Tween 23_22" pX="37.5" pY="54.5" width="75" height="109" x="1544" y="640"/>
+  <SubTexture name="zhoutai_Tween 22_21" pX="37.5" pY="54.5" width="75" height="109" x="77" y="629"/>
+  <SubTexture name="zhoutai_Tween 21_20" pX="37.5" pY="54.5" width="75" height="109" x="1634" y="621"/>
+  <SubTexture name="zhoutai_Tween 20_19" pX="37.5" pY="54.5" width="75" height="109" x="0" y="537"/>
+  <SubTexture name="zhoutai_Tween 19_18" pX="37.5" pY="54.5" width="75" height="109" x="1917" y="520"/>
+  <SubTexture name="zhoutai_Tween 18_17" pX="37.5" pY="54.5" width="75" height="109" x="1654" y="510"/>
+  <SubTexture name="zhoutai_Tween 17_16" pX="37.5" pY="54.5" width="75" height="109" x="94" y="407"/>
+  <SubTexture name="zhoutai_Tween 65_64" pX="97.5" pY="60.5" width="195" height="121" x="572" y="298"/>
+  <SubTexture name="zhoutai_Tween 64_63" pX="97" pY="60.5" width="194" height="121" x="1348" y="534"/>
+  <SubTexture name="zhoutai_Tween 63_62" pX="97" pY="60.5" width="194" height="121" x="1152" y="430"/>
+  <SubTexture name="zhoutai_Tween 62_61" pX="97" pY="60.5" width="194" height="121" x="171" y="544"/>
+  <SubTexture name="zhoutai_Tween 61_60" pX="97.5" pY="60.5" width="195" height="121" x="171" y="421"/>
+  <SubTexture name="zhoutai_Tween 60_59" pX="97.5" pY="60.5" width="195" height="121" x="1163" y="307"/>
+  <SubTexture name="zhoutai_Tween 59_58" pX="97.5" pY="60.5" width="195" height="121" x="966" y="298"/>
+  <SubTexture name="zhoutai_Tween 58_57" pX="97.5" pY="60.5" width="195" height="121" x="772" y="175"/>
+  <SubTexture name="zhoutai_Tween 16_15" pX="37.5" pY="54.5" width="75" height="109" x="1902" y="631"/>
+  <SubTexture name="zhoutai_Tween 15_14" pX="88" pY="71" width="176" height="142" x="1389" y="144"/>
+  <SubTexture name="zhoutai_Tween 57_56" pX="97.5" pY="60.5" width="195" height="121" x="1166" y="184"/>
+  <SubTexture name="zhoutai_Tween 56_55" pX="97" pY="60.5" width="194" height="121" x="368" y="421"/>
+  <SubTexture name="zhoutai_Tween 55_54" pX="90.5" pY="71" width="181" height="142" x="1389" y="0"/>
+  <SubTexture name="zhoutai_Tween 14_13" pX="88" pY="71" width="176" height="142" x="1745" y="144"/>
+  <SubTexture name="zhoutai_Tween 13_12" pX="88" pY="71" width="176" height="142" x="1750" y="0"/>
+  <SubTexture name="zhoutai_Tween 12_11" pX="88" pY="71" width="176" height="142" x="1572" y="0"/>
+  <SubTexture name="zhoutai_Tween 11_10" pX="88" pY="71" width="176" height="142" x="0" y="166"/>
+  <SubTexture name="zhoutai_Tween 10_9" pX="88" pY="71" width="176" height="142" x="1567" y="144"/>
+  <SubTexture name="zhoutai_Tween 54_53" pX="85.5" pY="91" width="171" height="182" x="1216" y="0"/>
+  <SubTexture name="zhoutai_Tween 53_52" pX="114.5" pY="82" width="229" height="164" x="0" y="0"/>
+  <SubTexture name="zhoutai_Tween 52_51" pX="93.5" pY="61" width="187" height="122" x="1135" y="553"/>
+  <SubTexture name="zhoutai_Tween 51_50" pX="95" pY="61" width="190" height="122" x="562" y="544"/>
+  <SubTexture name="zhoutai_Tween 9_8" pX="37.5" pY="54.5" width="75" height="109" x="1825" y="613"/>
+  <SubTexture name="zhoutai_Tween 50_49" pX="97.5" pY="60.5" width="195" height="121" x="375" y="298"/>
+  <SubTexture name="zhoutai_Tween 8_7" pX="46" pY="64" width="92" height="128" x="1923" y="260"/>
+  <SubTexture name="zhoutai_Tween 7_6" pX="46" pY="64" width="92" height="128" x="1560" y="399"/>
+  <SubTexture name="zhoutai_Tween 6_5" pX="46" pY="64" width="92" height="128" x="1731" y="517"/>
+  <SubTexture name="zhoutai_Tween 5_4" pX="46" pY="64" width="92" height="128" x="1917" y="390"/>
+  <SubTexture name="zhoutai_Tween 4_3" pX="46" pY="64" width="92" height="128" x="1928" y="130"/>
+  <SubTexture name="zhoutai_Tween 3_2" pX="46" pY="64" width="92" height="128" x="0" y="407"/>
+  <SubTexture name="zhoutai_Tween 2_1" pX="46" pY="64" width="92" height="128" x="1736" y="387"/>
+  <SubTexture name="zhoutai_Tween 1_0" pX="46" pY="64" width="92" height="128" x="1928" y="0"/>
+  <SubTexture name="zhoutai_Tween 49_48" pX="97.5" pY="60.5" width="195" height="121" x="1360" y="411"/>
+  <SubTexture name="zhoutai_Tween 48_47" pX="97" pY="60.5" width="194" height="121" x="564" y="421"/>
+  <SubTexture name="zhoutai_Tween 47_46" pX="97" pY="60.5" width="194" height="121" x="760" y="421"/>
+  <SubTexture name="zhoutai_Tween 46_45" pX="97.5" pY="60.5" width="195" height="121" x="1363" y="288"/>
+  <SubTexture name="zhoutai_Tween 45_44" pX="97.5" pY="60.5" width="195" height="121" x="769" y="298"/>
+  <SubTexture name="zhoutai_Tween 44_43" pX="98" pY="60.5" width="196" height="121" x="376" y="175"/>
+  <SubTexture name="zhoutai_Tween 43_42" pX="98" pY="60.5" width="196" height="121" x="574" y="175"/>
+  <SubTexture name="zhoutai_Tween 42_41" pX="98" pY="60.5" width="196" height="121" x="178" y="175"/>
+ </TextureAtlas>
+</skeleton>

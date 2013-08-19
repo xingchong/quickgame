@@ -33,7 +33,51 @@ LOGIN_PANEL_CCBI = "ccbi/login_scene.ccbi"
 
 
 --animation path
-ANIMATION_ZHAOYUN       = "zhaoyun"
-ANIMATION_ZHAOYUN_PLIST = "animation/zhaoyun.plist"
+ANIMATION_ZHAOYUN                = "zhaoyun"
+ANIMATION_ZHAOYUN_PLIST          = "animation/zhaoyun.plist"
+
+ANIMATION_ZHUGELIANG             = "zhugeliang"
+ANIMATION_ZHUGELIANG_PLIST       = "animation/zhugeliang.plist"
+
+
+ANIMATION_LIUBEI                 = "liubei"
+ANIMATION_LIUBEI_PLIST           = "animation/liubei.plist"
+
+ANIMATION_GUANYU                 = "guanyu"
+ANIMATION_GUANYU_PLIST           = "animation/guanyu.plist"
+
+ANIMATION_ZHANGFEI               = "zhangfei"
+ANIMATION_ZHANGFEI_PLIST         = "animation/zhangfei.plist"
+
+ANIMATION_LVBU                   = "lvbu"
+ANIMATION_LVBU_PLIST             = "animation/lvbu.plist"
+
+ANIMATION_DIAOCHAN               = "diaochan"
+ANIMATION_DIAOCHAN_PLIST         = "animation/diaochan.plist"
+
+ANIMATION_CHENGONG               = "chengong"
+ANIMATION_CHENGONG_PLIST         = "animation/chengong.plist"
+
+ANIMATION_ZOMBIE                 = "Zombie_f/Zombie"
+ANIMATION_ZOMBIE_PLIST           = "animation/zombie.plist"
+
+ANIMATION_ZHOUTAI               = "zhoutai"
+ANIMATION_ZHOUTAI_PLIST         = "animation/zhoutai.plist"
+
+--player
+ANIMATION_PLAYER0               = "player0"
+ANIMATION_PLAYER0_PLIST         = "animation/player/player0.plist"
+
+ANIMATION_PLAYER3               = "player3"
+ANIMATION_PLAYER3_PLIST         = "animation/player/player3.plist"
+
+
+--npc
+ANIMATION_LIULANGHAN              = "liulanghan"
+ANIMATION_LIULANGHAN_PLIST        = "animation/npc/liulanghan.plist"
+
+
+--battlereport path
+BATTLE_REPORT_PATH      = "battle_report/battle.xml"
 
 

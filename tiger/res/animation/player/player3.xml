@@ -1,0 +1,66 @@
+<skeleton name="char3" frameRate="60" version="1.4">
+ <armatures>
+  <armature name="player3">
+   <b name="player1" x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100">
+    <d name="p3_Tween 1_0"/>
+    <d name="p3_Tween 2_1"/>
+    <d name="p3_Tween 3_2"/>
+    <d name="p3_Tween 4_3"/>
+    <d name="p3_Tween 5_4"/>
+    <d name="p3_Tween 6_5"/>
+    <d name="p3_Tween 7_6"/>
+    <d name="p3_Tween 8_7"/>
+    <d name="p3_Tween 9_8"/>
+    <d name="p3_Tween 10_9"/>
+    <d name="p3_Tween 11_10"/>
+    <d name="p3_Tween 12_11"/>
+    <d name="p3_Tween 13_12"/>
+    <d name="p3_Tween 14_13"/>
+    <d name="p3_Tween 15_14"/>
+    <d name="p3_Tween 16_15"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="player3">
+   <mov name="stand" dr="48" to="6" drTW="96" lp="1" twE="NaN">
+    <b name="player1" sc="1" dl="0">
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="0" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="1" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="2" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="3" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="4" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="5" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="6" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="7" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="8" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="9" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="10" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="11" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="12" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="13" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="14" twE="0" dr="3"/>
+     <f x="-3.8" y="-180" kX="0" kY="0" cX="1" cY="1" z="0" alpha="100" red="100" green="100" blue="100" dI="15" twE="0" dr="3"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="char3" width="2048" height="2048">
+  <SubTexture name="p3_Tween 16_15" pX="131" pY="200" width="262" height="400" x="264" y="0"/>
+  <SubTexture name="p3_Tween 15_14" pX="131" pY="200" width="262" height="400" x="528" y="402"/>
+  <SubTexture name="p3_Tween 14_13" pX="131" pY="200" width="262" height="400" x="792" y="0"/>
+  <SubTexture name="p3_Tween 13_12" pX="131" pY="200" width="262" height="400" x="0" y="804"/>
+  <SubTexture name="p3_Tween 12_11" pX="131" pY="200" width="262" height="400" x="1320" y="0"/>
+  <SubTexture name="p3_Tween 11_10" pX="131" pY="200" width="262" height="400" x="1056" y="402"/>
+  <SubTexture name="p3_Tween 10_9" pX="131" pY="200" width="262" height="400" x="0" y="402"/>
+  <SubTexture name="p3_Tween 9_8" pX="131" pY="200" width="262" height="400" x="264" y="804"/>
+  <SubTexture name="p3_Tween 8_7" pX="131" pY="200" width="262" height="400" x="0" y="0"/>
+  <SubTexture name="p3_Tween 7_6" pX="131" pY="200" width="262" height="400" x="528" y="0"/>
+  <SubTexture name="p3_Tween 6_5" pX="131" pY="200" width="262" height="400" x="1056" y="0"/>
+  <SubTexture name="p3_Tween 5_4" pX="131" pY="200" width="262" height="400" x="1584" y="0"/>
+  <SubTexture name="p3_Tween 4_3" pX="131" pY="200" width="262" height="400" x="264" y="402"/>
+  <SubTexture name="p3_Tween 3_2" pX="131" pY="200" width="262" height="400" x="792" y="402"/>
+  <SubTexture name="p3_Tween 2_1" pX="131" pY="200" width="262" height="400" x="1320" y="402"/>
+  <SubTexture name="p3_Tween 1_0" pX="131" pY="200" width="262" height="400" x="1584" y="402"/>
+ </TextureAtlas>
+</skeleton>

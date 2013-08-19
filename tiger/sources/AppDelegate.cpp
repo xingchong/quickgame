@@ -18,7 +18,15 @@
 #include "Lua_extensions_CCB.h"
 
 //SPSAnimation
-#include "TSPAnimationLoader.h"
+//#include "TSPAnimationLoader.h"
+#include "BattleParseLoader.h"
+//#include "SPArmatureLoader.h"
+#include "TAnimationLoader.h"
+
+
+#include "BattleParse.h"
+
+//#include "LuaLoader.h"
 
 using namespace std;
 using namespace cocos2d;
@@ -63,8 +71,17 @@ bool AppDelegate::applicationDidFinishLaunching()
     // CCBReader
     tolua_extensions_ccb_open(L);
     
-    //SPSAnimation
-    tolua_TSPAnimation_open(L);
+    
+    //BattleParse
+    tolua_BattleParse_open(L);
+    
+    tolua_TAnimation_open(L);
+    
+//    CCSprite * sprite = CCSprite::create();
+//    sprite->setFlipX(bool bFlipX)
+    
+//    CCNode *node = CCNode::create();
+//    node->setSkewX(<#float fSkewX#>)
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
     string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("scripts/main.lua");
@@ -99,7 +116,11 @@ bool AppDelegate::applicationDidFinishLaunching()
     CCLOG("LOAD LUA FILE: %s", path.c_str());
     CCLOG("------------------------------------------------");
     pEngine->executeScriptFile(path.c_str());
-
+    
+//    const char* _xml = "res/battle_report/battle.xml";
+//    BattleParse *battleParse = BattleParse::create(_xml);
+//    battleParse->play();
+    
     return true;
 }
 
