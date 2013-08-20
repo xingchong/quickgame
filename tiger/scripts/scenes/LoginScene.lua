@@ -8,6 +8,8 @@ LoginScene.editBoxUsername = nil
 
 LoginScene.editBoxPassword = nil
 
+LoginScene.httpLabel = nil
+
 
 function LoginScene:ctor()
     require("utils.CCBReaderLoad")
@@ -44,6 +46,10 @@ function LoginScene:ctor()
     LoginScene.editBoxUsername = editBoxUsername
     LoginScene.editBoxPassword = editBoxPassword
     
+    local pUrl = "http://10.22.222.88:6001/config/json.txt"
+    LoginScene.httpLabel = ui.newTTFLabel({text = pUrl, x=300, y=10})
+    self:addChild(LoginScene.httpLabel)
+    
     --animation
     LoginScene:addArmatureFileInfo(ANIMATION_PLAYER0_PLIST)
     local armature0 = Armature:create(ANIMATION_PLAYER0)
@@ -56,7 +62,14 @@ function LoginScene:ctor()
     armature1:getAnimation():play("stand")
     armature1:setPosition(ccp(200, 20))
     self:addChild(armature1)
-    
+
+end
+
+
+function LoginScene:onEnter()
+
+    print("onEnter in LoginScene.................")
+
 end
 
 
@@ -68,17 +81,39 @@ function LoginScene.loginButtonClick()
     
     print("userName="..userName..", password="..password)
     
-    ---require("utils/HttpUtil").requestJsonData("http://10.22.222.88:6001/config/json.txt")
     
-    game.enterMainScene()
+    local pUrl = "http://10.22.222.88:6001/config/json.txt"
+    
+    require("utils/HttpUtil")
+    
+    HttpUtil.requestData(LoginScene.httpCallback, pUrl)
+    
+    --game.enterMainScene()
 end
 
 
 
+function LoginScene.httpCallback(dict)
 
-function LoginScene:onEnter()
-    print("onEnter in LoginScene.................")
+    local name    = dict.name
+    
+    local request = dict.request
+    
+    local str     = request:getResponseString()
+    
+    local state   = request:getState()
+    
+    print("state="..state..", name="..name..", str="..str)
+    
+    LoginScene.httpLabel:setString("name="..name..", str="..str)
+    
+    local enterMainScene = function() game.enterMainScene() end
+    
+    require("framework.client.scheduler").performWithDelayGlobal(enterMainScene, 2)
+    
 end
+
+
 
 
 

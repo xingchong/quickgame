@@ -84,7 +84,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 //    sprite->setFlipX(bool bFlipX)
     
 //    CCNode *node = CCNode::create();
-//    node->setSkewX(<#float fSkewX#>)
+//    node->setSkewX(float fSkewX)
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
     string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("scripts/main.lua");

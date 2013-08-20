@@ -2,7 +2,21 @@
 
 HttpUtil = {}
 
+function HttpUtil.requestData(pCallback, pUrl)
 
+    local request = CCHTTPRequest:createWithUrlLua(pCallback, pUrl)
+    
+    request:start()
+end
+
+
+function HttpUtil.test()
+
+    print("test..............")
+
+end
+
+--[[
 function HttpUtil.requestXmlData(url)
 	local httpServer = HttpSever:sharedInstance()
 	httpServer:setunZipTrue(false)
@@ -47,7 +61,7 @@ function HttpUtil.receiveJsonData(message)
 end
 
  
-function json(json)
+function HttpUtil.json(json)
     local j=string.gsub(json,'\"([^\"]-)\":','%1=')
     local j=string.gsub(j,'%b\[\]','')
     local j='t='..j
@@ -55,6 +69,7 @@ function json(json)
     return t
 end
 
+]]--
 
 
 
